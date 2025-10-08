@@ -1,14 +1,18 @@
-try:
-    from ultralytics import YOLO
-    print("[✅] YOLO importado correctamente.")
+from ultralytics import YOLO
 
-    # Intentar cargar un modelo preentrenado
-    modelo_prueba = "yolov10n.pt"  # Cambia por la ruta de tus pesos
-    try:
-        model = YOLO(modelo_prueba)
-        print(f"[✅] Modelo cargado correctamente: {modelo_prueba}")
-    except Exception as e:
-        print(f"[⚠️] No se pudo cargar el modelo {modelo_prueba}: {e}")
+model = YOLO("yolov10n.pt")
 
-except ImportError:
-    print("[❌] YOLO no está instalado en este entorno.")
+model.train(
+    data="data",
+    epochs=100,
+    imgsz=640,
+    batch=8,
+    augment=True,
+    degrees=5,
+    translate=0.1,
+    scale=0.2,
+    shear=0.1,
+    flipud=0.1,
+    fliplr=0.5,
+    mosaic=0.2,  # cuidado con mosaic si el defecto es muy pequeño
+)
