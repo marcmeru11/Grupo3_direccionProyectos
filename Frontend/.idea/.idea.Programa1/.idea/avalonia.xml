@@ -5,6 +5,10 @@
       <map>
         <entry key="Programa1/App.axaml" value="Programa1/Programa1.csproj" />
         <entry key="Programa1/MainWindow.axaml" value="Programa1/Programa1.csproj" />
+        <entry key="Programa1/Xaml/App.axaml" value="Programa1/Programa1.csproj" />
+        <entry key="Programa1/Xaml/Programa1.axaml" value="Programa1/Programa1.csproj" />
+        <entry key="Programa1/axaml/App.axaml" value="Programa1/Programa1.csproj" />
+        <entry key="Programa1/axaml/Programa1.axaml" value="Programa1/Programa1.csproj" />
       </map>
     </option>
   </component>

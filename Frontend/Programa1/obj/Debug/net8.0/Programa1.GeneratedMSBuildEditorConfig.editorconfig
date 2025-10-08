@@ -19,8 +19,8 @@ build_property.ProjectDir = C:\Users\lolda\RiderProjects\Programa1\Programa1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/lolda/RiderProjects/Programa1/Programa1/App.axaml]
+[C:/Users/lolda/RiderProjects/Programa1/Programa1/Xaml/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/lolda/RiderProjects/Programa1/Programa1/MainWindow.axaml]
+[C:/Users/lolda/RiderProjects/Programa1/Programa1/Xaml/Programa1.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

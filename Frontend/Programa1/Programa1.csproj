@@ -19,4 +19,18 @@
             <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
         </PackageReference>
     </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Layer\Bridge\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Programa1.cs">
+        <DependentUpon>Programa1.axaml</DependentUpon>
+      </Compile>
+      <Compile Update="control\App.cs">
+        <DependentUpon>App.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+    </ItemGroup>
 </Project>
