@@ -2,5 +2,5 @@ train: dataset_yolo/images/train
 val: dataset_yolo/images/val
 test: dataset_yolo/images/test
 
-nc: 1
-names: ["defecto"]
+nc: 2
+names: ["noDefecto","defecto"]

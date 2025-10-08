@@ -1,12 +1,11 @@
 import os
 import json
 
-# Directorio donde están las imágenes y los JSON
+#data directory
 DATA_DIR = "Data/cropped_images"
 
-# Clase única: "defecto"
-CLASS_MAP = {"rafaga": 0}
-
+#extract and parse to yolo format from labelme json
+#yolo format: <object-class> <x_center> <y_center> <width> <height>
 def convert_shape_to_yolo(shape, img_w, img_h):
     points = shape["points"]
     xs = [p[0] for p in points]
@@ -34,16 +33,26 @@ def main():
 
             for shape in data["shapes"]:
                 label = shape["label"]
-                if label not in CLASS_MAP:
-                    continue
-                cls_id = CLASS_MAP[label]
+                
+                
+                
                 x_center, y_center, width, height = convert_shape_to_yolo(shape, img_w, img_h)
-                txt_lines.append(f"{cls_id} {x_center:.6f} {y_center:.6f} {width:.6f} {height:.6f}")
+                txt_lines.append(f"1 {x_center:.6f} {y_center:.6f} {width:.6f} {height:.6f}")
 
             # Crear el archivo .txt correspondiente
             txt_path = os.path.join(DATA_DIR, file.replace(".json", ".txt"))
             with open(txt_path, "w") as f:
-                f.write("\n".join(txt_lines))
+                f.write("\n ".join(txt_lines))
+            continue
+
+        elif file.endswith(".png") and not os.path.exists(os.path.join(DATA_DIR, file.replace(".png", ".json"))):
+        
+           
+            
+            txt_path = os.path.join(DATA_DIR, file.replace(".png", ".txt"))
+            with open(txt_path, "w") as f:
+                f.write("0 0.5 0.5 1.0 1.0")  
+            continue
 
 if __name__ == "__main__":
     main()
