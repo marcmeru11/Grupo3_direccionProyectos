@@ -21,10 +21,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Layer\Bridge\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <Compile Update="Programa1.cs">
         <DependentUpon>Programa1.axaml</DependentUpon>
       </Compile>

@@ -15,12 +15,14 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Programa1
-build_property.ProjectDir = C:\Users\lolda\RiderProjects\Programa1\Programa1\
+build_property.ProjectDir = A:\Grupo3_direccionProyectos\Frontend\Programa1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/lolda/RiderProjects/Programa1/Programa1/Xaml/App.axaml]
+[A:/Grupo3_direccionProyectos/Frontend/Programa1/Xaml/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/lolda/RiderProjects/Programa1/Programa1/Xaml/Programa1.axaml]
+[A:/Grupo3_direccionProyectos/Frontend/Programa1/Xaml/Programa1.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
