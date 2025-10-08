@@ -1,2 +1,5 @@
 Backend/YOLO/yoloV10/
-Backend/YOLO/Data/.
+Backend/YOLO/dataset_yolo/
+Backend/YOLO/Data
+runs
+

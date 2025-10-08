@@ -1,2 +1,4 @@
 toma de decisiones
 we are gonna use python3.9
+
+iter 60
