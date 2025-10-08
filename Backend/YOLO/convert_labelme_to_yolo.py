@@ -21,13 +21,13 @@ def convert_shape_to_yolo(shape, img_w, img_h):
     return x_center, y_center, width, height
 
 def main():
-    for file in os.listdir(DATA_DIR):
-        if file.endswith(".json"):
+    for file in os.listdir(DATA_DIR): #take all the files in the data directory
+        if file.endswith(".json"): #take the json files only
             json_path = os.path.join(DATA_DIR, file)
             with open(json_path, "r") as f:
                 data = json.load(f)
             
-            img_w = data["imageWidth"]
+            img_w = data["imageWidth"] #navigation of the json structure
             img_h = data["imageHeight"]
             txt_lines = []
 
@@ -39,13 +39,13 @@ def main():
                 x_center, y_center, width, height = convert_shape_to_yolo(shape, img_w, img_h)
                 txt_lines.append(f"1 {x_center:.6f} {y_center:.6f} {width:.6f} {height:.6f}")
 
-            # Crear el archivo .txt correspondiente
+            # Creates a txt file for each json file in yolo format
             txt_path = os.path.join(DATA_DIR, file.replace(".json", ".txt"))
             with open(txt_path, "w") as f:
                 f.write("\n ".join(txt_lines))
             continue
 
-        elif file.endswith(".png") and not os.path.exists(os.path.join(DATA_DIR, file.replace(".png", ".json"))):
+        elif file.endswith(".png") and not os.path.exists(os.path.join(DATA_DIR, file.replace(".png", ".json"))): #detects if the data belongs to the 0 class 
         
            
             

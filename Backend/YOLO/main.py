@@ -12,19 +12,19 @@ try:
     
     try:
         model = YOLO(modelo)
-        imgRoute="/home/david/3_carrera/dirProyectos/Grupo3_direccionProyectos/Backend/YOLO/img_2024-12-03_08.47.57_11150774_cam_H2674069.png"
-        # Cargar modelo entrenado
+        imgRoute="img"
+        
         
         print(f"Modelo cargado correctamente: {modelo}")
 
-        # Detectar objetos en una imagen
+        # proccess the image
         results = model(imgRoute, conf=0.5,
         save=False,  #! TODO CAMBIAR PARA GUARDAR IMAGENES
-        project="runs/detect",  # Carpeta de salida
-        name="predict2"  # Subcarpeta
+        project="runs/detect",  # output directory
+        name="predict"  # subdirectory name
     )
 
-        # Mostrar resultados
+        #show the proccessed image
         annotated_frame = results[0].plot()  # Devuelve la imagen anotada
         cv2.imshow("YOLO Result", annotated_frame)
         cv2.waitKey(0)
@@ -33,8 +33,7 @@ try:
         # Guardar imagen con detecciones
         #results[0].save()
 
-        # Imprimir resultados en consola
-        print(results)
+        
     except Exception as e:
         print(f"No se pudo cargar el modelo {modelo}: {e}")
 
