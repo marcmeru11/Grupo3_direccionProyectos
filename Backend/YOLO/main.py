@@ -64,11 +64,3 @@ class YOLOMdoel:
         self.last_prediction = results
         return predictions
 
-if __name__ == "__main__":
-    yolo = YOLOMdoel("best.pt")
-    annotated_frame, result = yolo.predict("Data/cropped_images/img_2025-01-31_10.46.48_11786819_cam_H2674069.png", conf_threshold=0.25, save=False)
-    print("the class bellongs to the class: ", result)
-    yolo.show_last_prediction()
-
-
-
