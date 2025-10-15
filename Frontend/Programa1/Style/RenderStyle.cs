@@ -10,6 +10,7 @@ namespace Programa1.Style;
 public class RenderStyle {
 
     private readonly IBackground _background;
+    private readonly ITransition _transition;
     
     public RenderStyle(IBackground background) {
         _background = background;
@@ -23,6 +24,10 @@ public class RenderStyle {
         _background.Render(ctx);
     }
 
+    public void RenderTransition(RenderContext ctx) {
+        _transition.Render(ctx);
+    }
+
     /// TODO: Keep creating different bridge methods. Do NOT use existing bridges if the renderer doesn't match the layer type (for example, don't call
     /// TODO: RenderBackground using RenderProgramLogo)
     /// <code>
@@ -30,5 +35,5 @@ public class RenderStyle {
     ///         _programLogo.Render(ctx);
     ///     }
     /// </code>
-    
+
 }
