@@ -10,7 +10,8 @@ public class DefaultBackground : IBackground {
     public void Render(RenderContext ctx) {
         ctx.Display(
             draw: dc => {
-               dc.FillRectangle(Brushes.White, new Rect(ctx.Bounds.Size)); 
+               dc.FillRectangle(Brushes.White, new Rect(ctx.Bounds.Size));
+                dc.FillRectangle(Brushes.White, new Rect(ctx.Bounds.Size));
             }
         );
 
