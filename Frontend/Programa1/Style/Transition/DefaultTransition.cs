@@ -5,7 +5,7 @@ using Programa1.Layer.Bridge;
 
 namespace Programa1.Style.Background;
 
-public class DefaultBackground : IBackground {
+public class DefaultTransition : IBackground {
     
     public void Render(RenderContext ctx) {
         ctx.Display(
