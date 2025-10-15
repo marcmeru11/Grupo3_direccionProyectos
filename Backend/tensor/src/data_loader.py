@@ -2,6 +2,10 @@ import tensorflow as tf
 import pathlib
 import matplotlib.pyplot as plt
 
+"""
+    batch: tamaño del conjunto de imagenes que se van a usar
+"""
+
 AUTOTUNE = tf.data.AUTOTUNE
 
 #Declaramos variables fijas sobre las fotos
@@ -10,8 +14,8 @@ img_height = 500
 img_width = 464
 
 #buscamos y creamos un "dataset" inicial desde las imagenes
-data_dir = pathlib.Path("venv/Dataset/Images") 
-dataset = tf.data.Dataset.list_files(str(data_dir / "*.png"), shuffle=True)
+data_dir = pathlib.Path("Backend/tensor/dataset/cropped_images") 
+dataset = tf.data.Dataset.list_files(str(data_dir / "*.png"), shuffle = True)
 
 #separamos entre entrenamiento y validacion
 ds_size = len(list(data_dir.glob("*.png")))
@@ -58,16 +62,30 @@ train_ds = (
 #Creamos el dataset de validacion con toda la configuracion
 val_ds = (
     val_ds
-    .map(load_image_no_aug, num_parallel_calls=AUTOTUNE)
+    .map(load_image_no_aug, num_parallel_calls = AUTOTUNE)
     .cache() #cachea las imagenes para mayor velocidad
     .batch(batch_size) #settea la cantidad de imagenes que se usan de golpe
     .prefetch(AUTOTUNE) #va cargando el siguiente batch
 )
 
+print("Train batches:", sum(1 for _ in train_ds))
+print("Validation batches:", sum(1 for _ in val_ds))
 
+"""
+    en subplot no debe ir un base * altura superior al valor dentro del range()
+"""
+# Obtener un batch del dataset de validación
+for batch in val_ds.take(1):  # Solo tomamos un batch
+    images = batch.numpy()    # Convertir el batch a un array de NumPy
+    plt.figure(figsize=(10, 10)) # dimensiones ventana
+    for i in range(batch_size):
+        ax = plt.subplot(8, 4, i + 1) # disposicion de las imagenes
+        plt.imshow(images[i])
+        plt.axis("off")
+    plt.show()
 
+def get_train_dataset(): 
+    return train_ds
 
-
-
-
-
+def get_validation_set():
+    return val_ds
