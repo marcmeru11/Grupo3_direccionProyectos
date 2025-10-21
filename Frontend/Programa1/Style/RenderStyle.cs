@@ -16,7 +16,7 @@ public class RenderStyle {
     }
 
     public static RenderStyle Default() {
-        return new RenderStyle(new DefaultBackground());
+        return new RenderStyle(new BackgroundA2());
     }
 
     public void RenderBackground(RenderContext ctx) {
