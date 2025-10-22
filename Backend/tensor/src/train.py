@@ -23,26 +23,51 @@ x = tf.keras.layers.Conv2DTranspose(64, 3, strides=2, activation='relu', padding
 x = tf.keras.layers.Conv2DTranspose(32, 3, strides=2, activation='relu', padding='same')(x)
 decoded = tf.keras.layers.Conv2D(channels, 3, activation='sigmoid', padding='same')(x)
 
-#Se crea el modelo que sirve para analizar las imagenes
-autoencoder = models.Model(inputs, decoded)
-autoencoder.compile(optimizer='adam', loss='mse')
+""" 
+    Crear modelo
+"""
+num_classes = 2
+
+model = tf.keras.Sequential([
+    tf.keras.layers.Rescaling(1./255),
+    tf.keras.layers.Conv2D(32, 3, activation='relu'),
+    tf.keras.layers.MaxPooling2D(),
+    tf.keras.layers.Conv2D(32, 3, activation='relu'),
+    tf.keras.layers.MaxPooling2D(),
+    tf.keras.layers.Conv2D(32, 3, activation='relu'),
+    tf.keras.layers.MaxPooling2D(),
+    tf.keras.layers.Flatten(),
+    tf.keras.layers.Dense(128, activation='relu'),
+    tf.keras.layers.Dense(num_classes)
+])
+
+model.compile(
+    optimizer='adam',
+    loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+    metrics=['accuracy'])
 
 train_ds_auto = train_ds.map(lambda x: (x, x))
 val_ds_auto = val_ds.map(lambda x: (x, x))
 
-#Entrena el modelo con los dataset dados
-autoencoder.fit(
-    train_ds_auto,
-    validation_data=val_ds_auto,
-    epochs=2
-)
+autoencoder = tf.keras.Model(inputs, decoded)
+
+"""
+    loss: mse (minimum square error)
+"""
+epochs = 1
+autoencoder.compile(optimizer = 'adam', loss = 'mse')
+"""
+    Entrena el modelo con los dataset dados
+    epochs: numero de iteraciones
+"""
+autoencoder.fit(train_ds_auto, validation_data = val_ds_auto, epochs = epochs)
 
 #Calculamos el threshold con los errores de un set de validacion con solo imagenes correctas
 def calculate_threshold(ds):
     errors = []
 
     for batch in ds:
-        x, _ = batch 
+        x = batch
         reconstructed = autoencoder.predict(x)
         batch_errors = np.mean(np.square(x.numpy() - reconstructed), axis=(1,2,3))  
         errors.extend(batch_errors)
@@ -52,11 +77,11 @@ def calculate_threshold(ds):
 
 calculate_threshold(val_ds_correct)
 
-autoencoder.save("autoencoder_model")
+autoencoder.save("model")
 
-def is_anomaly(img, model, threshold):
+def is_anomaly(img, autoencoder, threshold):
     img = tf.expand_dims(img, 0)  #añadir batch
-    reconstructed = model.predict(img) #calcular salida
+    reconstructed = autoencoder.predict(img) #calcular salida
     error = tf.reduce_mean(tf.square(img - reconstructed)).numpy()  #calcular el error
     return error > threshold, error #Si el error el mas que el threshold, imagen mala
 
