@@ -3,7 +3,7 @@ import random
 from PIL import Image
 
 # Ruta a la carpeta que contiene imágenes PNG y JSON (puede ser relativa o absoluta)
-ruta = '..\dataset\cropped_images'  # Ajusta según tu estructura de carpetas
+ruta = 'Backend/tensor/dataset/cropped_images'  # Ajusta según tu estructura de carpetas
 
 # Listar todos los archivos PNG en la carpeta
 todas_imagenes_nombres = [f for f in os.listdir(ruta) if f.endswith('.png')]
