@@ -28,6 +28,12 @@ decoded = tf.keras.layers.Conv2D(channels, 3, activation='sigmoid', padding='sam
 """
 num_classes = 2
 
+def is_anomaly(img, autoencoder, threshold):
+    img = tf.expand_dims(img, 0)  #añadir batch
+    reconstructed = autoencoder.predict(img) #calcular salida
+    error = tf.reduce_mean(tf.square(img - reconstructed)).numpy()  #calcular el error
+    return error > threshold, error #Si el error el mas que el threshold, imagen mala
+
 model = tf.keras.Sequential([
     tf.keras.layers.Rescaling(1./255),
     tf.keras.layers.Conv2D(32, 3, activation='relu'),
@@ -41,11 +47,6 @@ model = tf.keras.Sequential([
     tf.keras.layers.Dense(num_classes)
 ])
 
-model.compile(
-    optimizer='adam',
-    loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
-    metrics=['accuracy'])
-
 train_ds_auto = train_ds.map(lambda x: (x, x))
 val_ds_auto = val_ds.map(lambda x: (x, x))
 
@@ -55,7 +56,10 @@ autoencoder = tf.keras.Model(inputs, decoded)
     loss: mse (minimum square error)
 """
 epochs = 1
-autoencoder.compile(optimizer = 'adam', loss = 'mse')
+autoencoder.compile(
+    optimizer = 'adam', 
+    loss = 'mse',
+    metrics = ['mae'])
 """
     Entrena el modelo con los dataset dados
     epochs: numero de iteraciones
@@ -73,16 +77,13 @@ def calculate_threshold(ds):
         errors.extend(batch_errors)
 
     errors = np.array(errors)
-    threshold = np.mean(errors) + 3*np.std(errors) 
+    return np.mean(errors) + 3 * np.std(errors) 
 
-calculate_threshold(val_ds_correct)
+threshold = calculate_threshold(val_ds_correct)
+
+flag, error = is_anomaly(nueva_imagen, autoencoder, threshold)
+print("anomalia" if flag else "normal", "Error: ", error)
 
 autoencoder.save("model")
-
-def is_anomaly(img, autoencoder, threshold):
-    img = tf.expand_dims(img, 0)  #añadir batch
-    reconstructed = autoencoder.predict(img) #calcular salida
-    error = tf.reduce_mean(tf.square(img - reconstructed)).numpy()  #calcular el error
-    return error > threshold, error #Si el error el mas que el threshold, imagen mala
 
 #TODO revisar la manera de comprobar si es una anomalia y reestructurar el codigo para que sea mas legible y probar que funciona completamente
