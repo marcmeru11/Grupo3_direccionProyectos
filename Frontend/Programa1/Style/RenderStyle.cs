@@ -1,6 +1,7 @@
 using Programa1.layer;
 using Programa1.Layer.Bridge;
 using Programa1.Style.Background;
+using Programa1.Style.Transition;
 
 namespace Programa1.Style;
 
@@ -12,12 +13,16 @@ public class RenderStyle {
     private readonly IBackground _background;
     private readonly ITransition _transition;
     
-    public RenderStyle(IBackground background) {
+    public RenderStyle(IBackground background, ITransition transition) {
         _background = background;
+        _transition = transition;
     }
 
     public static RenderStyle Default() {
-        return new RenderStyle(new DefaultBackground());
+        return new RenderStyle(
+            new DefaultBackground(),
+            new DefaultTransition()
+        );
     }
 
     public void RenderBackground(RenderContext ctx) {

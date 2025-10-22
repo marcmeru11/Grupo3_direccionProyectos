@@ -14,6 +14,7 @@ public partial class Programa1 : Window {
      */
     static Programa1() {
         Layers.Add(new BackgroundLayer());
+        Layers.Add(new TransitionLayer());
     }
 
     /**
