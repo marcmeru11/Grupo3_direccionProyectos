@@ -11,6 +11,8 @@ public class DefaultBackground : IBackground {
         ctx.Display(
             draw: dc => {
                 dc.FillRectangle(Brushes.White, new Rect(ctx.Bounds.Size));
+                dc.FillRectangle();
+
             }
         );
 
