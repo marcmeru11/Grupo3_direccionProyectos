@@ -7,21 +7,35 @@ namespace Programa1.Style.Transition;
 
 public class DefaultTransition : ITransition
 {
+    private double _opacity = 1;
+    private bool _fadeIn = false;
+
     public void Render(RenderContext ctx)
     {
-        ctx.Display(draw: dc =>
+        const double speed = 0.02;
+        if (_fadeIn)
         {
+            _opacity += speed;
+            if (_opacity >= 1)
+            {
+                _opacity = 1;
+                _fadeIn = false;
+            }
+        }
+        else
+        {
+            _opacity -= speed;
+            if (_opacity <= 0)
+            {
+                _opacity = 0;
+                _fadeIn = true;
+            }
+        }
 
-            // Tamaño del rectángulo
-            double width = 100;
-            double height = 100;
-
-            // Posición centrada
-            double x = (ctx.Bounds.Width - width) / 2;
-            double y = (ctx.Bounds.Height - height) / 2;
-
-            // Dibujar rectángulo azul
-            dc.FillRectangle(Brushes.Blue, new Rect(x, y, width, height));
+        ctx.Display(dc =>
+        {
+            var brush = new SolidColorBrush(Colors.Blue, _opacity);
+            dc.FillRectangle(brush, new Rect(ctx.Bounds.Size));
         });
     }
 }
