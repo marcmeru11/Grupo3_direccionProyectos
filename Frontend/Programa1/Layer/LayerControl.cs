@@ -16,10 +16,14 @@ public sealed class LayerControl : Avalonia.Controls.Control {
     
     private readonly Window _window;
     private readonly List<IRenderLayer> _layers;
+    private readonly RenderStyle _style;
 
     public LayerControl(Window window, List<IRenderLayer> layers) {
         _window = window;
         _layers = layers;
+
+
+        _style = RenderStyle.Default();
     }
 
     /// <summary>
@@ -34,7 +38,7 @@ public sealed class LayerControl : Avalonia.Controls.Control {
 
         // TODO: Build RenderStyles from the ground up using the factory instead of hardcoding default styles
         foreach (IRenderLayer layer in _layers) {
-            layer.Render(RenderContext.Of(_window).Begin(drawingContext), RenderStyle.Default());
+            layer.Render(RenderContext.Of(_window).Begin(drawingContext), _style);
         }
         
     }
