@@ -38,6 +38,15 @@ val_data  = val_nombres + imagenes_malas
 # train_data -> rutas del 80% buenas para entrenamiento
 # val_data  -> rutas del 20% buenas + malas para validación final
 
+def get_val_good_path():
+    return imagenes_buenas
+
+def get_train_path():
+    return train_data
+
+def get_val_path():
+    return val_data
+
 print(f"Total imágenes: {len(datos_todas_imagenes)}")
 print(f"Imágenes buenas: {len(imagenes_buenas)}")
 print(f"Entrenamiento: {len(train_data)}")

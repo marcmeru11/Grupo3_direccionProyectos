@@ -1,6 +1,7 @@
 import tensorflow as tf
 import pathlib
 import matplotlib.pyplot as plt
+import img_data as data
 
 """
     batch: tamaño del conjunto de imagenes que se van a usar
@@ -13,17 +14,14 @@ batch_size = 32
 img_height = 500
 img_width = 464
 
+good_val_path = data.get_val_good_path()
+train_path = data.get_train_path()
+val_path = data.get_val_path()
 #buscamos y creamos un "dataset" inicial desde las imagenes
-data_dir = pathlib.Path("Backend/tensor/dataset/cropped_images") 
-dataset = tf.data.Dataset.list_files(str(data_dir / "*.png"), shuffle = True)
 
-#separamos entre entrenamiento y validacion
-ds_size = len(list(data_dir.glob("*.png")))
-train_size = int(0.8 * ds_size)
-
-#creamos las partes de entrenamiento y validacion
-train_ds = dataset.take(train_size)
-val_ds = dataset.skip(train_size)
+train_ds = tf.data.Dataset.from_tensor_slices(train_path)
+val_ds = tf.data.Dataset.from_tensor_slices(val_path)
+good_val_ds = tf.data.Dataset.from_tensor_slices(good_val_path)
 
 #Aplicamos variacion a las fotos para evitar overfitting
 data_augmentation = tf.keras.Sequential([
@@ -68,24 +66,23 @@ val_ds = (
     .prefetch(AUTOTUNE) #va cargando el siguiente batch
 )
 
+#Creamos el dataset de validacion correcta con toda la configuracion
+good_val_ds = (
+    good_val_ds
+    .map(load_image_no_aug, num_parallel_calls = AUTOTUNE)
+    .cache() #cachea las imagenes para mayor velocidad
+    .batch(batch_size) #settea la cantidad de imagenes que se usan de golpe
+    .prefetch(AUTOTUNE) #va cargando el siguiente batch
+)
+
 print("Train batches:", sum(1 for _ in train_ds))
 print("Validation batches:", sum(1 for _ in val_ds))
-
-"""
-    en subplot no debe ir un base * altura superior al valor dentro del range()
-"""
-# Obtener un batch del dataset de validación
-for batch in val_ds.take(1):  # Solo tomamos un batch
-    images = batch.numpy()    # Convertir el batch a un array de NumPy
-    plt.figure(figsize=(10, 10)) # dimensiones ventana
-    for i in range(batch_size):
-        ax = plt.subplot(8, 4, i + 1) # disposicion de las imagenes
-        plt.imshow(images[i])
-        plt.axis("off")
-    plt.show()
 
 def get_train_dataset(): 
     return train_ds
 
 def get_validation_set():
     return val_ds
+
+def get_validation_set_correct():
+    return good_val_ds
