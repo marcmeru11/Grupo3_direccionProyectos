@@ -5,41 +5,55 @@ from PIL import Image
 # Ruta a la carpeta que contiene imágenes PNG y JSON (puede ser relativa o absoluta)
 ruta = 'Backend/tensor/dataset/cropped_images'  # Ajusta según tu estructura de carpetas
 
-# Listar todos los archivos PNG en la carpeta
-todas_imagenes_nombres = [f for f in os.listdir(ruta) if f.endswith('.png')]
+archivos = os.listdir(ruta)
+imagenes = [f for f in archivos if f.endswith('.png')]
+jsons = [f for f in archivos if f.endswith('.json')]
 
-# Listar todos los archivos JSON en la carpeta
-jsons_nombres = [f for f in os.listdir(ruta) if f.endswith('.json')]
-
-# Filtrar imágenes "buenas" que no tengan JSON asociado
-imagenes_buenas_nombres = []
-for img in todas_imagenes_nombres:
-    json_name = os.path.splitext(img)[0] + '.json'
-    if json_name not in jsons_nombres:
-        imagenes_buenas_nombres.append(img)
-
-# Cargar todas las imágenes (buenas y malas) en una lista
+# Separar imágenes buenas y malas por nombre
+imagenes_buenas = []
+imagenes_malas = []
 datos_todas_imagenes = []
-for img in todas_imagenes_nombres:
+
+for img in imagenes:
+
+    # Cargar la imagen para la variable de todas
     path_img = os.path.join(ruta, img)
     imagen = Image.open(path_img)
     datos_todas_imagenes.append(imagen)
 
-# Cargar solo imágenes buenas en otra lista
+    json_name = os.path.splitext(img)[0] + '.json'
+    if json_name in jsons:
+        imagenes_malas.append(img)
+    else:
+        imagenes_buenas.append(img)
+
+# Cargar solo imágenes buenas
 datos_imagenes_buenas = []
-for img in imagenes_buenas_nombres:
+for img in imagenes_buenas:
+    path_img = os.path.join(ruta, img)
+    datos_imagenes_buenas.append(img)  # Puedes guardar nombres o cargar imágenes según tu pipeline
+
+# Mezclar, dividir en 80/20
+random.shuffle(datos_imagenes_buenas)
+num_entrenamiento = int(len(datos_imagenes_buenas) * 0.8)
+train_data = datos_imagenes_buenas[:num_entrenamiento]
+val_nombres = datos_imagenes_buenas[num_entrenamiento:]
+
+# Cargar solo imágenes malas
+datos_imagenes_malas = []
+for img in imagenes_malas:
+    path_img = os.path.join(ruta, img)
+    datos_imagenes_malas.append(img)
+
+# Unión de malas y el 20% buenas para validación final
+val_final_nombres = val_nombres + datos_imagenes_malas
+
+# Puedes cargar todas como imágenes si lo prefieres:
+val_data = []
+for img in val_final_nombres:
     path_img = os.path.join(ruta, img)
     imagen = Image.open(path_img)
-    datos_imagenes_buenas.append(imagen)
-
-# Mezclar aleatoriamente las imágenes buenas
-random.shuffle(datos_imagenes_buenas)
-
-# Dividir 80% entrenamiento, 20% validación de imágenes buenas
-num_entrenamiento = int(len(datos_imagenes_buenas) * 0.8)
-
-train_data = datos_imagenes_buenas[:num_entrenamiento]
-val_data = datos_imagenes_buenas[num_entrenamiento:]
+    val_data.append(imagen)
 
 # Resultado:
 # datos_todas_imagenes -> todas las imágenes (buenas y malas)
