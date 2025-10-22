@@ -34,7 +34,7 @@ public class DefaultTransition : ITransition
 
         ctx.Display(dc =>
         {
-            var brush = new SolidColorBrush(Colors.Blue, _opacity);
+            var brush = new SolidColorBrush(Colors.Black, _opacity);
             dc.FillRectangle(brush, new Rect(ctx.Bounds.Size));
         });
     }
