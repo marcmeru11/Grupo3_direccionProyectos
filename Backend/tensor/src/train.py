@@ -1,7 +1,6 @@
 import data_loader as dt
 import tensorflow as tf
 import numpy as np
-import os 
 import json
 
 img_height = 500
@@ -91,7 +90,9 @@ for batch in val_ds.take(1):
         flag, error = is_anomaly(batch[i], autoencoder, threshold)
         print("anomalia" if flag else "normal", "Error: ", error)
 
-autoencoder.save("model")
+autoencoder.save("model.keras")
+
+print(type(autoencoder))
 
 metadata = {"threshold": float(threshold)}
 
