@@ -16,7 +16,7 @@ public class RenderStyle {
     }
 
     public static RenderStyle Default() {
-        return new RenderStyle(new LightGreenBackground());
+        return new RenderStyle(new GradientBackground());
     }
 
     public void RenderBackground(RenderContext ctx) {

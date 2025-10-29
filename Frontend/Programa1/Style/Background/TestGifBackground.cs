@@ -25,7 +25,7 @@ namespace Programa1.Style.Background;
 /// 
 /// </summary>
 
-public class testGifBackGround : IBackground
+public class TestGifBackGround : IBackground
 {
 
     public void Render(RenderContext ctx)
