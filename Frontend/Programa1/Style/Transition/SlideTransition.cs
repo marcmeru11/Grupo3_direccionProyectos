@@ -12,13 +12,15 @@ namespace Programa1.Style.Transition
         private int _phase = 0;
         private readonly double _speed;
         private readonly SlideDirection _direction;
-        private readonly SlideType _type;
+        private readonly SlideReturn _returnDirection;
 
-        public SlideTransition(double speed = 0.02, SlideDirection direction = SlideDirection.Right, SlideType type = SlideType.InOut)
+        public SlideTransition(double speed = 0.02,
+                             SlideDirection direction = SlideDirection.Left, // direccion de entrada
+                             SlideReturn returnDirection = SlideReturn.Same) // direccion de regreso
         {
             _speed = speed;
             _direction = direction;
-            _type = type;
+            _returnDirection = returnDirection;
         }
 
         public event Action? OnTransitionComplete;
@@ -40,39 +42,28 @@ namespace Programa1.Style.Transition
             // actualizar progreso
             _progress += _speed;
 
-            // render
             ctx.Display(dc =>
             {
                 var brush = new SolidColorBrush(Colors.Black);
                 double width = ctx.Bounds.Width;
                 double height = ctx.Bounds.Height;
 
-                if (_type == SlideType.InOut)
-                {
-                    // slide que entra y sale
-                    double offset = _phase == 0 ?
-                        width * (1 - _progress) :  // entra
-                        -width * _progress;        // sale
+                SlideDirection currentDir = _phase == 0 ? _direction : GetReturnDirection();
 
-                    if (_direction == SlideDirection.Left)
-                        offset = -offset;
+                double offset = _phase == 0 ?
+                    width * (1 - _progress) :  // entra
+                    -width * _progress;        // sale
 
-                    dc.FillRectangle(brush, new Rect(offset, 0, width, height));
-                }
-                else
-                {
-                    // slide que cubre
-                    double coverWidth = width * _progress;
-                    double startX = _direction == SlideDirection.Right ? 0 : width - coverWidth;
+                if (currentDir == SlideDirection.Left)
+                    offset = -offset;
 
-                    dc.FillRectangle(brush, new Rect(startX, 0, coverWidth, height));
-                }
+                dc.FillRectangle(brush, new Rect(offset, 0, width, height));
             });
 
             // cambiar fase
             if (_progress >= 1)
             {
-                if (_phase == 0 && _type == SlideType.InOut)
+                if (_phase == 0)
                 {
                     _phase = 1;
                     _progress = 0;
@@ -82,6 +73,16 @@ namespace Programa1.Style.Transition
                     _phase = 2;
                 }
             }
+        }
+
+        private SlideDirection GetReturnDirection()
+        {
+            return _returnDirection switch
+            {
+                SlideReturn.Same => _direction, 
+                SlideReturn.Opposite => _direction == SlideDirection.Right ? SlideDirection.Left : SlideDirection.Right, // dirección opuesta
+                _ => _direction
+            };
         }
 
         public void Reset()
@@ -104,13 +105,13 @@ namespace Programa1.Style.Transition
 
     public enum SlideDirection
     {
-        Right,
-        Left
+        Left,
+        Right
     }
 
-    public enum SlideType
+    public enum SlideReturn
     {
-        InOut,    // entra y sale
-        Cover     // cubre progresivamente
+        Same,      
+        Opposite   
     }
 }
