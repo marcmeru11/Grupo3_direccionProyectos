@@ -11,7 +11,7 @@ public class GradientBackground : IBackground{
     public void Render(RenderContext ctx){
         ctx.Display(
             draw: dc => {
-                //Base gradiente
+                //Base
                 var gradientBrush = new LinearGradientBrush
                 {
                     StartPoint = new RelativePoint(0, 0, RelativeUnit.Relative),
@@ -19,7 +19,7 @@ public class GradientBackground : IBackground{
                     GradientStops = new GradientStops // Colores del gradiente
                     {
                         new GradientStop(Color.Parse("#CCD5F0"), 0.0), // Claro
-                        new GradientStop(Color.Parse("#5D6B99"), 1.0)  // Oscuro
+                        new GradientStop(Color.Parse("#5D6B99"), 0.66)  // Oscuro
                     }
                 };
 
