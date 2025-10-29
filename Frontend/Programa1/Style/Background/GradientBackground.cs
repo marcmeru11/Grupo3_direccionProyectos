@@ -19,7 +19,7 @@ public class GradientBackground : IBackground{
                     GradientStops = new GradientStops // Colores del gradiente
                     {
                         new GradientStop(Color.Parse("#CCD5F0"), 0.0), // Claro
-                        new GradientStop(Color.Parse("#5D6B99"), 1.0)  // Oscuro
+                        new GradientStop(Color.Parse("#5D6B99"), 0.5)  // Oscuro
                     }
                 };
 
@@ -36,6 +36,11 @@ public class GradientBackground : IBackground{
                 brush = new SolidColorBrush(color);
                 double lineX = ctx.Bounds.Width * 2/3;
                 dc.DrawLine(new Pen(brush, 2), new Point(lineX, 0), new Point(lineX, ctx.Bounds.Height));
+
+                //Second "base"
+                color = Color.Parse("#3E0070");
+                brush = new SolidColorBrush(color);
+                dc.FillRectangle(brush, new Rect(2/3, 0, ctx.Bounds.Width, topHeight));
 
             }
         );
