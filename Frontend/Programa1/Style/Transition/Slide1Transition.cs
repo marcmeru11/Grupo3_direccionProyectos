@@ -5,7 +5,7 @@ using Programa1.Layer.Bridge;
 
 namespace Programa1.Style.Transition;
 
-public class SlideTransition1 : ITransition
+public class Slide1Transition : ITransition
 {
     private double _offset = 0;
     private bool _slideIn = true;
