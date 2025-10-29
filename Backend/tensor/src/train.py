@@ -14,14 +14,16 @@ val_ds_correct = dt.get_validation_set_correct()
 inputs = tf.keras.layers.Input(shape=(img_height, img_width, channels))
 
 #"Comprime" las imagenes para procesarlas mejor
-x = tf.keras.layers.Conv2D(32, 3, activation='relu', padding='same')(inputs)
+x = tf.keras.layers.Conv2D(8, 3, activation='relu', padding='same')(inputs)
 x = tf.keras.layers.MaxPooling2D()(x)
-x = tf.keras.layers.Conv2D(64, 3, activation='relu', padding='same')(x)
+x = tf.keras.layers.Conv2D(16, 3, activation='relu', padding='same')(x)
 encoded = tf.keras.layers.MaxPooling2D()(x)
+encoded = tf.keras.layers.Dropout(0.2)(encoded)
+
 
 #"Descomprime" las imagenes de vuelta
-x = tf.keras.layers.Conv2DTranspose(64, 3, strides=2, activation='relu', padding='same')(encoded)
-x = tf.keras.layers.Conv2DTranspose(32, 3, strides=2, activation='relu', padding='same')(x)
+x = tf.keras.layers.Conv2DTranspose(16, 3, strides=2, activation='relu', padding='same')(encoded)
+x = tf.keras.layers.Conv2DTranspose(8, 3, strides=2, activation='relu', padding='same')(x)
 decoded = tf.keras.layers.Conv2D(channels, 3, activation='sigmoid', padding='same')(x)
 
 """ 
@@ -32,21 +34,8 @@ num_classes = 2
 def is_anomaly(img, autoencoder, threshold):
     img = tf.expand_dims(img, 0)  #añadir batch
     reconstructed = autoencoder.predict(img) #calcular salida
-    error = tf.reduce_mean(tf.square(img - reconstructed)).numpy()  #calcular el error
+    error = tf.reduce_mean(tf.abs(img - reconstructed)).numpy()  # MAE
     return error > threshold, error #Si el error el mas que el threshold, imagen mala
-
-model = tf.keras.Sequential([
-    tf.keras.layers.Rescaling(1./255),
-    tf.keras.layers.Conv2D(32, 3, activation='relu'),
-    tf.keras.layers.MaxPooling2D(),
-    tf.keras.layers.Conv2D(32, 3, activation='relu'),
-    tf.keras.layers.MaxPooling2D(),
-    tf.keras.layers.Conv2D(32, 3, activation='relu'),
-    tf.keras.layers.MaxPooling2D(),
-    tf.keras.layers.Flatten(),
-    tf.keras.layers.Dense(128, activation='relu'),
-    tf.keras.layers.Dense(num_classes)
-])
 
 train_ds_auto = train_ds.map(lambda x: (x, x))
 val_ds_auto = val_ds.map(lambda x: (x, x))
@@ -56,7 +45,7 @@ autoencoder = tf.keras.Model(inputs, decoded)
 """
     loss: mse (minimum square error)
 """
-epochs = 2
+epochs = 20
 autoencoder.compile(
     optimizer = 'adam', 
     loss = 'mse',
@@ -65,7 +54,8 @@ autoencoder.compile(
     Entrena el modelo con los dataset dados
     epochs: numero de iteraciones
 """
-autoencoder.fit(train_ds_auto, validation_data = val_ds_auto, epochs = epochs)
+callback = tf.keras.callbacks.EarlyStopping(monitor="val_loss", patience=3, restore_best_weights=True)
+autoencoder.fit(train_ds_auto, validation_data = val_ds_auto, epochs = epochs, callbacks=[callback])
 
 #Calculamos el threshold con los errores de un set de validacion con solo imagenes correctas
 def calculate_threshold(ds):
@@ -74,11 +64,11 @@ def calculate_threshold(ds):
     for batch in ds:
         x = batch
         reconstructed = autoencoder.predict(x)
-        batch_errors = np.mean(np.square(x.numpy() - reconstructed), axis=(1,2,3))  
+        batch_errors = np.mean(np.abs(x.numpy() - reconstructed), axis=(1,2,3))  # MAE
         errors.extend(batch_errors)
 
     errors = np.array(errors)
-    return np.mean(errors) + 3 * np.std(errors) 
+    return np.percentile(errors, 90)
 
 threshold = calculate_threshold(val_ds_correct)
 
