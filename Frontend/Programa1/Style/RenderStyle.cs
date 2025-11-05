@@ -21,7 +21,7 @@ public class RenderStyle {
     public static RenderStyle Default() {
         return new RenderStyle(
             new DefaultBackground(),
-            new BlockFadeTransition()
+            new ShapeTransition()
         );
     }
 
