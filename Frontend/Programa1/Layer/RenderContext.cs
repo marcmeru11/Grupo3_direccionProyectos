@@ -19,6 +19,9 @@ public class RenderContext {
         public DrawingContext DrawingContext { get; private set; } = null!;
         public Rect Bounds { get; private set; }
 
+        public Rect LeftBounds { get; private set; }
+        public Rect RightBounds { get; private set; }
+
         // Root panel
         private Panel? _overlay;
         
@@ -38,7 +41,13 @@ public class RenderContext {
         public RenderContext Begin(DrawingContext drawingContext) {
             DrawingContext = drawingContext;
             Bounds = Window is null ? new Rect() : new Rect(Window.Bounds.Size);
-            
+
+            double leftWidth = Bounds.Width * 0.75;
+            double rightWidth = Bounds.Width * 0.25;
+
+            LeftBounds = new Rect(Bounds.X, Bounds.Y, leftWidth, Bounds.Height);
+            RightBounds = new Rect(Bounds.X + leftWidth, Bounds.Y, rightWidth, Bounds.Height);
+
             _overlay ??= ResolveOverlay(Window);
             
             return this;

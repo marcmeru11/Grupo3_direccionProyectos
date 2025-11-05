@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kleil\\Desktop\\DIGESTION PROYECTOS\\Grupo3_direccionProyectos\\Frontend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7580FF81-B834-43FE-BAC8-32462F2B970B}|Programa1\\Programa1.csproj|c:\\users\\kleil\\desktop\\digestion proyectos\\grupo3_direccionproyectos\\frontend\\programa1\\programa1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7580FF81-B834-43FE-BAC8-32462F2B970B}|Programa1\\Programa1.csproj|solutionrelative:programa1\\programa1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7580FF81-B834-43FE-BAC8-32462F2B970B}|Programa1\\Programa1.csproj|c:\\users\\kleil\\desktop\\digestion proyectos\\grupo3_direccionproyectos\\frontend\\programa1\\layer\\irenderlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7580FF81-B834-43FE-BAC8-32462F2B970B}|Programa1\\Programa1.csproj|solutionrelative:programa1\\layer\\irenderlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7580FF81-B834-43FE-BAC8-32462F2B970B}|Programa1\\Programa1.csproj|c:\\users\\kleil\\desktop\\digestion proyectos\\grupo3_direccionproyectos\\frontend\\programa1\\layer\\rendercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7580FF81-B834-43FE-BAC8-32462F2B970B}|Programa1\\Programa1.csproj|solutionrelative:programa1\\layer\\rendercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7580FF81-B834-43FE-BAC8-32462F2B970B}|Programa1\\Programa1.csproj|c:\\users\\kleil\\desktop\\digestion proyectos\\grupo3_direccionproyectos\\frontend\\programa1\\layer\\layercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7580FF81-B834-43FE-BAC8-32462F2B970B}|Programa1\\Programa1.csproj|solutionrelative:programa1\\layer\\layercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7580FF81-B834-43FE-BAC8-32462F2B970B}|Programa1\\Programa1.csproj|c:\\users\\kleil\\desktop\\digestion proyectos\\grupo3_direccionproyectos\\frontend\\programa1\\style\\background\\defaultbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7580FF81-B834-43FE-BAC8-32462F2B970B}|Programa1\\Programa1.csproj|solutionrelative:programa1\\style\\background\\defaultbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DefaultBackground.cs",
+              "DocumentMoniker": "C:\\Users\\kleil\\Desktop\\DIGESTION PROYECTOS\\Grupo3_direccionProyectos\\Frontend\\Programa1\\Style\\Background\\DefaultBackground.cs",
+              "RelativeDocumentMoniker": "Programa1\\Style\\Background\\DefaultBackground.cs",
+              "ToolTip": "C:\\Users\\kleil\\Desktop\\DIGESTION PROYECTOS\\Grupo3_direccionProyectos\\Frontend\\Programa1\\Style\\Background\\DefaultBackground.cs",
+              "RelativeToolTip": "Programa1\\Style\\Background\\DefaultBackground.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:41:47.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LayerControl.cs",
+              "DocumentMoniker": "C:\\Users\\kleil\\Desktop\\DIGESTION PROYECTOS\\Grupo3_direccionProyectos\\Frontend\\Programa1\\Layer\\LayerControl.cs",
+              "RelativeDocumentMoniker": "Programa1\\Layer\\LayerControl.cs",
+              "ToolTip": "C:\\Users\\kleil\\Desktop\\DIGESTION PROYECTOS\\Grupo3_direccionProyectos\\Frontend\\Programa1\\Layer\\LayerControl.cs",
+              "RelativeToolTip": "Programa1\\Layer\\LayerControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:40:42.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRenderLayer.cs",
+              "DocumentMoniker": "C:\\Users\\kleil\\Desktop\\DIGESTION PROYECTOS\\Grupo3_direccionProyectos\\Frontend\\Programa1\\Layer\\IRenderLayer.cs",
+              "RelativeDocumentMoniker": "Programa1\\Layer\\IRenderLayer.cs",
+              "ToolTip": "C:\\Users\\kleil\\Desktop\\DIGESTION PROYECTOS\\Grupo3_direccionProyectos\\Frontend\\Programa1\\Layer\\IRenderLayer.cs",
+              "RelativeToolTip": "Programa1\\Layer\\IRenderLayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:40:16.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RenderContext.cs",
+              "DocumentMoniker": "C:\\Users\\kleil\\Desktop\\DIGESTION PROYECTOS\\Grupo3_direccionProyectos\\Frontend\\Programa1\\Layer\\RenderContext.cs",
+              "RelativeDocumentMoniker": "Programa1\\Layer\\RenderContext.cs",
+              "ToolTip": "C:\\Users\\kleil\\Desktop\\DIGESTION PROYECTOS\\Grupo3_direccionProyectos\\Frontend\\Programa1\\Layer\\RenderContext.cs",
+              "RelativeToolTip": "Programa1\\Layer\\RenderContext.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAADwv2YAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:04:50.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Programa1.cs",
+              "DocumentMoniker": "C:\\Users\\kleil\\Desktop\\DIGESTION PROYECTOS\\Grupo3_direccionProyectos\\Frontend\\Programa1\\Programa1.cs",
+              "RelativeDocumentMoniker": "Programa1\\Programa1.cs",
+              "ToolTip": "C:\\Users\\kleil\\Desktop\\DIGESTION PROYECTOS\\Grupo3_direccionProyectos\\Frontend\\Programa1\\Programa1.cs",
+              "RelativeToolTip": "Programa1\\Programa1.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:15:53.01Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
