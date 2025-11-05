@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\Programa1\\Layer\\RenderContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kleil\\Desktop\\DIGESTION PROYECTOS\\Grupo3_direccionProyectos\\Frontend\\Programa1\\Programa1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\Programa1\\Programa1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kleil\\Desktop\\DIGESTION PROYECTOS\\Grupo3_direccionProyectos\\Frontend\\Programa1\\Layer\\LayerControl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\Programa1\\Layer\\LayerControl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kleil\\Desktop\\DIGESTION PROYECTOS\\Grupo3_direccionProyectos\\Frontend\\Programa1\\Programa1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\Programa1\\Programa1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LayerControl.cs",
               "DocumentMoniker": "C:\\Users\\kleil\\Desktop\\DIGESTION PROYECTOS\\Grupo3_direccionProyectos\\Frontend\\Programa1\\Layer\\LayerControl.cs",
               "RelativeDocumentMoniker": "Frontend\\Programa1\\Layer\\LayerControl.cs",
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Programa1.cs",
               "DocumentMoniker": "C:\\Users\\kleil\\Desktop\\DIGESTION PROYECTOS\\Grupo3_direccionProyectos\\Frontend\\Programa1\\Programa1.cs",
               "RelativeDocumentMoniker": "Frontend\\Programa1\\Programa1.cs",
@@ -62,7 +62,7 @@
               "RelativeDocumentMoniker": "Frontend\\Programa1\\Layer\\RenderContext.cs",
               "ToolTip": "C:\\Users\\kleil\\Desktop\\DIGESTION PROYECTOS\\Grupo3_direccionProyectos\\Frontend\\Programa1\\Layer\\RenderContext.cs",
               "RelativeToolTip": "Frontend\\Programa1\\Layer\\RenderContext.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAFIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T12:52:15.428Z",
               "EditorCaption": ""

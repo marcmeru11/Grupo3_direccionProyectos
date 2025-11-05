@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using Avalonia;
@@ -60,11 +61,30 @@ public class RenderContext {
         /// - overlay: Build against the root panel and create minimal children branches with predefined content
         /// The actual implementation is irrelevant for the common use-case
         /// </summary>
-        public void Display(Action<DrawingContext>? draw = null, Action<Panel>? overlay = null, int z = 0, bool once = false, double angleDeg = 0, double? pivotX = null, double? pivotY = null, [CallerFilePath] string file = "", [CallerLineNumber] int line = 0) {
+        public void Display(Action<DrawingContext>? draw = null, string section = "all",Action<Panel>? overlay = null, int z = 0, bool once = false, double angleDeg = 0, double? pivotX = null, double? pivotY = null, [CallerFilePath] string file = "", [CallerLineNumber] int line = 0) {
             // Immediate drawing with a rotation helper (if there is any)
             if (draw is not null) {
 
-                if (angleDeg != 0 && pivotX.HasValue && pivotY.HasValue) {
+                Rect targetBounds;
+
+                // Selección de área según 'section'
+                switch (section.ToLower())
+                {
+                    case "left":
+                        targetBounds = LeftBounds;
+                        break;
+
+                    case "right":
+                        targetBounds = RightBounds;
+                        break;
+
+                    default: // "all"
+                        targetBounds = Bounds;
+                        break;
+                }
+
+
+            if (angleDeg != 0 && pivotX.HasValue && pivotY.HasValue) {
                     double cx = pivotX.Value;
                     double cy = pivotY.Value;
 

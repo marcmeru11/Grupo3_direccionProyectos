@@ -3,12 +3,11 @@
     "",
     "\\Frontend",
     "\\Frontend\\Programa1",
-    "\\Frontend\\Programa1\\Core",
     "\\Frontend\\Programa1\\Layer",
     "\\Frontend\\Programa1\\Layer\\Bridge",
     "\\Frontend\\Programa1\\Style",
     "\\Frontend\\Programa1\\Style\\Background"
   ],
-  "SelectedNode": "\\Frontend\\Programa1\\Layer\\LayerControl.cs",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
