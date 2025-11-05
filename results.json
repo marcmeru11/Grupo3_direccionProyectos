@@ -1,0 +1,1007 @@
+[
+  {
+    "image_index": 0,
+    "error": 0.01881818100810051,
+    "status": "normal"
+  },
+  {
+    "image_index": 1,
+    "error": 0.0250147245824337,
+    "status": "normal"
+  },
+  {
+    "image_index": 2,
+    "error": 0.02015332132577896,
+    "status": "normal"
+  },
+  {
+    "image_index": 3,
+    "error": 0.02820381335914135,
+    "status": "defective"
+  },
+  {
+    "image_index": 4,
+    "error": 0.02717452682554722,
+    "status": "defective"
+  },
+  {
+    "image_index": 5,
+    "error": 0.017960138618946075,
+    "status": "normal"
+  },
+  {
+    "image_index": 6,
+    "error": 0.018900612369179726,
+    "status": "normal"
+  },
+  {
+    "image_index": 7,
+    "error": 0.020904121920466423,
+    "status": "normal"
+  },
+  {
+    "image_index": 8,
+    "error": 0.01819523796439171,
+    "status": "normal"
+  },
+  {
+    "image_index": 9,
+    "error": 0.01886141113936901,
+    "status": "normal"
+  },
+  {
+    "image_index": 10,
+    "error": 0.018535172566771507,
+    "status": "normal"
+  },
+  {
+    "image_index": 11,
+    "error": 0.019028056412935257,
+    "status": "normal"
+  },
+  {
+    "image_index": 12,
+    "error": 0.02719045989215374,
+    "status": "defective"
+  },
+  {
+    "image_index": 13,
+    "error": 0.025408104062080383,
+    "status": "normal"
+  },
+  {
+    "image_index": 14,
+    "error": 0.01962357386946678,
+    "status": "normal"
+  },
+  {
+    "image_index": 15,
+    "error": 0.02403271198272705,
+    "status": "normal"
+  },
+  {
+    "image_index": 16,
+    "error": 0.018027685582637787,
+    "status": "normal"
+  },
+  {
+    "image_index": 17,
+    "error": 0.018284928053617477,
+    "status": "normal"
+  },
+  {
+    "image_index": 18,
+    "error": 0.019682835787534714,
+    "status": "normal"
+  },
+  {
+    "image_index": 19,
+    "error": 0.028664104640483856,
+    "status": "defective"
+  },
+  {
+    "image_index": 20,
+    "error": 0.019274700433015823,
+    "status": "normal"
+  },
+  {
+    "image_index": 21,
+    "error": 0.01865357905626297,
+    "status": "normal"
+  },
+  {
+    "image_index": 22,
+    "error": 0.018575699999928474,
+    "status": "normal"
+  },
+  {
+    "image_index": 23,
+    "error": 0.017803842201828957,
+    "status": "normal"
+  },
+  {
+    "image_index": 24,
+    "error": 0.028167253360152245,
+    "status": "defective"
+  },
+  {
+    "image_index": 25,
+    "error": 0.017799820750951767,
+    "status": "normal"
+  },
+  {
+    "image_index": 26,
+    "error": 0.020035460591316223,
+    "status": "normal"
+  },
+  {
+    "image_index": 27,
+    "error": 0.019640082493424416,
+    "status": "normal"
+  },
+  {
+    "image_index": 28,
+    "error": 0.02899002656340599,
+    "status": "defective"
+  },
+  {
+    "image_index": 29,
+    "error": 0.026858098804950714,
+    "status": "defective"
+  },
+  {
+    "image_index": 30,
+    "error": 0.018682081252336502,
+    "status": "normal"
+  },
+  {
+    "image_index": 31,
+    "error": 0.024654066190123558,
+    "status": "normal"
+  },
+  {
+    "image_index": 32,
+    "error": 0.024201929569244385,
+    "status": "normal"
+  },
+  {
+    "image_index": 33,
+    "error": 0.02341384068131447,
+    "status": "normal"
+  },
+  {
+    "image_index": 34,
+    "error": 0.025339515879750252,
+    "status": "normal"
+  },
+  {
+    "image_index": 35,
+    "error": 0.018298566341400146,
+    "status": "normal"
+  },
+  {
+    "image_index": 36,
+    "error": 0.019602790474891663,
+    "status": "normal"
+  },
+  {
+    "image_index": 37,
+    "error": 0.02291247434914112,
+    "status": "normal"
+  },
+  {
+    "image_index": 38,
+    "error": 0.01941061019897461,
+    "status": "normal"
+  },
+  {
+    "image_index": 39,
+    "error": 0.018101295456290245,
+    "status": "normal"
+  },
+  {
+    "image_index": 40,
+    "error": 0.01785198785364628,
+    "status": "normal"
+  },
+  {
+    "image_index": 41,
+    "error": 0.018310775980353355,
+    "status": "normal"
+  },
+  {
+    "image_index": 42,
+    "error": 0.02673041634261608,
+    "status": "defective"
+  },
+  {
+    "image_index": 43,
+    "error": 0.01918429136276245,
+    "status": "normal"
+  },
+  {
+    "image_index": 44,
+    "error": 0.02394435927271843,
+    "status": "normal"
+  },
+  {
+    "image_index": 45,
+    "error": 0.020584018900990486,
+    "status": "normal"
+  },
+  {
+    "image_index": 46,
+    "error": 0.01825016550719738,
+    "status": "normal"
+  },
+  {
+    "image_index": 47,
+    "error": 0.018302803859114647,
+    "status": "normal"
+  },
+  {
+    "image_index": 48,
+    "error": 0.01854885369539261,
+    "status": "normal"
+  },
+  {
+    "image_index": 49,
+    "error": 0.01866086944937706,
+    "status": "normal"
+  },
+  {
+    "image_index": 50,
+    "error": 0.018821323290467262,
+    "status": "normal"
+  },
+  {
+    "image_index": 51,
+    "error": 0.018833929672837257,
+    "status": "normal"
+  },
+  {
+    "image_index": 52,
+    "error": 0.020826390013098717,
+    "status": "normal"
+  },
+  {
+    "image_index": 53,
+    "error": 0.01738012582063675,
+    "status": "normal"
+  },
+  {
+    "image_index": 54,
+    "error": 0.019488735124468803,
+    "status": "normal"
+  },
+  {
+    "image_index": 55,
+    "error": 0.03028816170990467,
+    "status": "defective"
+  },
+  {
+    "image_index": 56,
+    "error": 0.02631746418774128,
+    "status": "defective"
+  },
+  {
+    "image_index": 57,
+    "error": 0.019091017544269562,
+    "status": "normal"
+  },
+  {
+    "image_index": 58,
+    "error": 0.017993276938796043,
+    "status": "normal"
+  },
+  {
+    "image_index": 59,
+    "error": 0.019084522500634193,
+    "status": "normal"
+  },
+  {
+    "image_index": 60,
+    "error": 0.024181943386793137,
+    "status": "normal"
+  },
+  {
+    "image_index": 61,
+    "error": 0.019654178991913795,
+    "status": "normal"
+  },
+  {
+    "image_index": 62,
+    "error": 0.018888287246227264,
+    "status": "normal"
+  },
+  {
+    "image_index": 63,
+    "error": 0.01889154128730297,
+    "status": "normal"
+  },
+  {
+    "image_index": 64,
+    "error": 0.018602997064590454,
+    "status": "normal"
+  },
+  {
+    "image_index": 65,
+    "error": 0.029651282355189323,
+    "status": "defective"
+  },
+  {
+    "image_index": 66,
+    "error": 0.01874694973230362,
+    "status": "normal"
+  },
+  {
+    "image_index": 67,
+    "error": 0.019399389624595642,
+    "status": "normal"
+  },
+  {
+    "image_index": 68,
+    "error": 0.030873049050569534,
+    "status": "defective"
+  },
+  {
+    "image_index": 69,
+    "error": 0.030415277928113937,
+    "status": "defective"
+  },
+  {
+    "image_index": 70,
+    "error": 0.01860559545457363,
+    "status": "normal"
+  },
+  {
+    "image_index": 71,
+    "error": 0.02979111112654209,
+    "status": "defective"
+  },
+  {
+    "image_index": 72,
+    "error": 0.021260427311062813,
+    "status": "normal"
+  },
+  {
+    "image_index": 73,
+    "error": 0.01868884637951851,
+    "status": "normal"
+  },
+  {
+    "image_index": 74,
+    "error": 0.019137687981128693,
+    "status": "normal"
+  },
+  {
+    "image_index": 75,
+    "error": 0.01883050799369812,
+    "status": "normal"
+  },
+  {
+    "image_index": 76,
+    "error": 0.018291428685188293,
+    "status": "normal"
+  },
+  {
+    "image_index": 77,
+    "error": 0.019082313403487206,
+    "status": "normal"
+  },
+  {
+    "image_index": 78,
+    "error": 0.021758195012807846,
+    "status": "normal"
+  },
+  {
+    "image_index": 79,
+    "error": 0.01914403587579727,
+    "status": "normal"
+  },
+  {
+    "image_index": 80,
+    "error": 0.02017783187329769,
+    "status": "normal"
+  },
+  {
+    "image_index": 81,
+    "error": 0.02442929707467556,
+    "status": "normal"
+  },
+  {
+    "image_index": 82,
+    "error": 0.027599483728408813,
+    "status": "defective"
+  },
+  {
+    "image_index": 83,
+    "error": 0.02365238033235073,
+    "status": "normal"
+  },
+  {
+    "image_index": 84,
+    "error": 0.02320713922381401,
+    "status": "normal"
+  },
+  {
+    "image_index": 85,
+    "error": 0.02228683792054653,
+    "status": "normal"
+  },
+  {
+    "image_index": 86,
+    "error": 0.028940347954630852,
+    "status": "defective"
+  },
+  {
+    "image_index": 87,
+    "error": 0.01897558942437172,
+    "status": "normal"
+  },
+  {
+    "image_index": 88,
+    "error": 0.01886027865111828,
+    "status": "normal"
+  },
+  {
+    "image_index": 89,
+    "error": 0.028572725132107735,
+    "status": "defective"
+  },
+  {
+    "image_index": 90,
+    "error": 0.022621074691414833,
+    "status": "normal"
+  },
+  {
+    "image_index": 91,
+    "error": 0.02360091172158718,
+    "status": "normal"
+  },
+  {
+    "image_index": 92,
+    "error": 0.018691761419177055,
+    "status": "normal"
+  },
+  {
+    "image_index": 93,
+    "error": 0.02314188703894615,
+    "status": "normal"
+  },
+  {
+    "image_index": 94,
+    "error": 0.01916569471359253,
+    "status": "normal"
+  },
+  {
+    "image_index": 95,
+    "error": 0.018199101090431213,
+    "status": "normal"
+  },
+  {
+    "image_index": 96,
+    "error": 0.02905222587287426,
+    "status": "defective"
+  },
+  {
+    "image_index": 97,
+    "error": 0.02312716841697693,
+    "status": "normal"
+  },
+  {
+    "image_index": 98,
+    "error": 0.019005900248885155,
+    "status": "normal"
+  },
+  {
+    "image_index": 99,
+    "error": 0.02579798549413681,
+    "status": "normal"
+  },
+  {
+    "image_index": 100,
+    "error": 0.018592868000268936,
+    "status": "normal"
+  },
+  {
+    "image_index": 101,
+    "error": 0.01934036798775196,
+    "status": "normal"
+  },
+  {
+    "image_index": 102,
+    "error": 0.02888595499098301,
+    "status": "defective"
+  },
+  {
+    "image_index": 103,
+    "error": 0.018666286021471024,
+    "status": "normal"
+  },
+  {
+    "image_index": 104,
+    "error": 0.021227190271019936,
+    "status": "normal"
+  },
+  {
+    "image_index": 105,
+    "error": 0.01946779154241085,
+    "status": "normal"
+  },
+  {
+    "image_index": 106,
+    "error": 0.026143481954932213,
+    "status": "normal"
+  },
+  {
+    "image_index": 107,
+    "error": 0.022548703476786613,
+    "status": "normal"
+  },
+  {
+    "image_index": 108,
+    "error": 0.01843419298529625,
+    "status": "normal"
+  },
+  {
+    "image_index": 109,
+    "error": 0.028326716274023056,
+    "status": "defective"
+  },
+  {
+    "image_index": 110,
+    "error": 0.01915900781750679,
+    "status": "normal"
+  },
+  {
+    "image_index": 111,
+    "error": 0.0225782822817564,
+    "status": "normal"
+  },
+  {
+    "image_index": 112,
+    "error": 0.026926137506961823,
+    "status": "defective"
+  },
+  {
+    "image_index": 113,
+    "error": 0.019312072545289993,
+    "status": "normal"
+  },
+  {
+    "image_index": 114,
+    "error": 0.02055300585925579,
+    "status": "normal"
+  },
+  {
+    "image_index": 115,
+    "error": 0.0276552252471447,
+    "status": "defective"
+  },
+  {
+    "image_index": 116,
+    "error": 0.02201159857213497,
+    "status": "normal"
+  },
+  {
+    "image_index": 117,
+    "error": 0.023243675008416176,
+    "status": "normal"
+  },
+  {
+    "image_index": 118,
+    "error": 0.02358902245759964,
+    "status": "normal"
+  },
+  {
+    "image_index": 119,
+    "error": 0.02076939307153225,
+    "status": "normal"
+  },
+  {
+    "image_index": 120,
+    "error": 0.02048814482986927,
+    "status": "normal"
+  },
+  {
+    "image_index": 121,
+    "error": 0.018810154870152473,
+    "status": "normal"
+  },
+  {
+    "image_index": 122,
+    "error": 0.018510693684220314,
+    "status": "normal"
+  },
+  {
+    "image_index": 123,
+    "error": 0.019714968279004097,
+    "status": "normal"
+  },
+  {
+    "image_index": 124,
+    "error": 0.020620787516236305,
+    "status": "normal"
+  },
+  {
+    "image_index": 125,
+    "error": 0.018197843804955482,
+    "status": "normal"
+  },
+  {
+    "image_index": 126,
+    "error": 0.024873273447155952,
+    "status": "normal"
+  },
+  {
+    "image_index": 127,
+    "error": 0.02275085635483265,
+    "status": "normal"
+  },
+  {
+    "image_index": 128,
+    "error": 0.02702663466334343,
+    "status": "defective"
+  },
+  {
+    "image_index": 129,
+    "error": 0.02918659895658493,
+    "status": "defective"
+  },
+  {
+    "image_index": 130,
+    "error": 0.01923026517033577,
+    "status": "normal"
+  },
+  {
+    "image_index": 131,
+    "error": 0.024736376479268074,
+    "status": "normal"
+  },
+  {
+    "image_index": 132,
+    "error": 0.018608596175909042,
+    "status": "normal"
+  },
+  {
+    "image_index": 133,
+    "error": 0.02774427831172943,
+    "status": "defective"
+  },
+  {
+    "image_index": 134,
+    "error": 0.01827976480126381,
+    "status": "normal"
+  },
+  {
+    "image_index": 135,
+    "error": 0.01918964833021164,
+    "status": "normal"
+  },
+  {
+    "image_index": 136,
+    "error": 0.01958492025732994,
+    "status": "normal"
+  },
+  {
+    "image_index": 137,
+    "error": 0.02378935180604458,
+    "status": "normal"
+  },
+  {
+    "image_index": 138,
+    "error": 0.020539818331599236,
+    "status": "normal"
+  },
+  {
+    "image_index": 139,
+    "error": 0.019260013476014137,
+    "status": "normal"
+  },
+  {
+    "image_index": 140,
+    "error": 0.018791086971759796,
+    "status": "normal"
+  },
+  {
+    "image_index": 141,
+    "error": 0.019068140536546707,
+    "status": "normal"
+  },
+  {
+    "image_index": 142,
+    "error": 0.02529519982635975,
+    "status": "normal"
+  },
+  {
+    "image_index": 143,
+    "error": 0.029457218945026398,
+    "status": "defective"
+  },
+  {
+    "image_index": 144,
+    "error": 0.018660103902220726,
+    "status": "normal"
+  },
+  {
+    "image_index": 145,
+    "error": 0.01907542161643505,
+    "status": "normal"
+  },
+  {
+    "image_index": 146,
+    "error": 0.024637645110487938,
+    "status": "normal"
+  },
+  {
+    "image_index": 147,
+    "error": 0.019209666177630424,
+    "status": "normal"
+  },
+  {
+    "image_index": 148,
+    "error": 0.018575552850961685,
+    "status": "normal"
+  },
+  {
+    "image_index": 149,
+    "error": 0.02808895893394947,
+    "status": "defective"
+  },
+  {
+    "image_index": 150,
+    "error": 0.019083276391029358,
+    "status": "normal"
+  },
+  {
+    "image_index": 151,
+    "error": 0.01708444580435753,
+    "status": "normal"
+  },
+  {
+    "image_index": 152,
+    "error": 0.016914894804358482,
+    "status": "normal"
+  },
+  {
+    "image_index": 153,
+    "error": 0.024240685626864433,
+    "status": "normal"
+  },
+  {
+    "image_index": 154,
+    "error": 0.017020881175994873,
+    "status": "normal"
+  },
+  {
+    "image_index": 155,
+    "error": 0.016870280727744102,
+    "status": "normal"
+  },
+  {
+    "image_index": 156,
+    "error": 0.02052476815879345,
+    "status": "normal"
+  },
+  {
+    "image_index": 157,
+    "error": 0.026996534317731857,
+    "status": "defective"
+  },
+  {
+    "image_index": 158,
+    "error": 0.017231039702892303,
+    "status": "normal"
+  },
+  {
+    "image_index": 159,
+    "error": 0.01857314072549343,
+    "status": "normal"
+  },
+  {
+    "image_index": 160,
+    "error": 0.021968040615320206,
+    "status": "normal"
+  },
+  {
+    "image_index": 161,
+    "error": 0.01694604381918907,
+    "status": "normal"
+  },
+  {
+    "image_index": 162,
+    "error": 0.02284075692296028,
+    "status": "normal"
+  },
+  {
+    "image_index": 163,
+    "error": 0.01694103516638279,
+    "status": "normal"
+  },
+  {
+    "image_index": 164,
+    "error": 0.01688690483570099,
+    "status": "normal"
+  },
+  {
+    "image_index": 165,
+    "error": 0.02628091536462307,
+    "status": "defective"
+  },
+  {
+    "image_index": 166,
+    "error": 0.022931842133402824,
+    "status": "normal"
+  },
+  {
+    "image_index": 167,
+    "error": 0.017526136711239815,
+    "status": "normal"
+  },
+  {
+    "image_index": 168,
+    "error": 0.022186828777194023,
+    "status": "normal"
+  },
+  {
+    "image_index": 169,
+    "error": 0.02596147544682026,
+    "status": "normal"
+  },
+  {
+    "image_index": 170,
+    "error": 0.017755407840013504,
+    "status": "normal"
+  },
+  {
+    "image_index": 171,
+    "error": 0.016979532316327095,
+    "status": "normal"
+  },
+  {
+    "image_index": 172,
+    "error": 0.022091999650001526,
+    "status": "normal"
+  },
+  {
+    "image_index": 173,
+    "error": 0.021361470222473145,
+    "status": "normal"
+  },
+  {
+    "image_index": 174,
+    "error": 0.019707607105374336,
+    "status": "normal"
+  },
+  {
+    "image_index": 175,
+    "error": 0.026316989213228226,
+    "status": "defective"
+  },
+  {
+    "image_index": 176,
+    "error": 0.017023446038365364,
+    "status": "normal"
+  },
+  {
+    "image_index": 177,
+    "error": 0.01693805120885372,
+    "status": "normal"
+  },
+  {
+    "image_index": 178,
+    "error": 0.016897382214665413,
+    "status": "normal"
+  },
+  {
+    "image_index": 179,
+    "error": 0.020022757351398468,
+    "status": "normal"
+  },
+  {
+    "image_index": 180,
+    "error": 0.02008497528731823,
+    "status": "normal"
+  },
+  {
+    "image_index": 181,
+    "error": 0.018382864072918892,
+    "status": "normal"
+  },
+  {
+    "image_index": 182,
+    "error": 0.017061950638890266,
+    "status": "normal"
+  },
+  {
+    "image_index": 183,
+    "error": 0.024461086839437485,
+    "status": "normal"
+  },
+  {
+    "image_index": 184,
+    "error": 0.017206337302923203,
+    "status": "normal"
+  },
+  {
+    "image_index": 185,
+    "error": 0.017671868205070496,
+    "status": "normal"
+  },
+  {
+    "image_index": 186,
+    "error": 0.017581645399332047,
+    "status": "normal"
+  },
+  {
+    "image_index": 187,
+    "error": 0.02572069689631462,
+    "status": "normal"
+  },
+  {
+    "image_index": 188,
+    "error": 0.01919153705239296,
+    "status": "normal"
+  },
+  {
+    "image_index": 189,
+    "error": 0.02082817070186138,
+    "status": "normal"
+  },
+  {
+    "image_index": 190,
+    "error": 0.025419360026717186,
+    "status": "normal"
+  },
+  {
+    "image_index": 191,
+    "error": 0.026706723496317863,
+    "status": "defective"
+  },
+  {
+    "image_index": 192,
+    "error": 0.022146346047520638,
+    "status": "normal"
+  },
+  {
+    "image_index": 193,
+    "error": 0.02703508920967579,
+    "status": "defective"
+  },
+  {
+    "image_index": 194,
+    "error": 0.0171759445220232,
+    "status": "normal"
+  },
+  {
+    "image_index": 195,
+    "error": 0.024092020466923714,
+    "status": "normal"
+  },
+  {
+    "image_index": 196,
+    "error": 0.016903402283787727,
+    "status": "normal"
+  },
+  {
+    "image_index": 197,
+    "error": 0.01695551536977291,
+    "status": "normal"
+  },
+  {
+    "image_index": 198,
+    "error": 0.017054228112101555,
+    "status": "normal"
+  },
+  {
+    "image_index": 199,
+    "error": 0.02315497398376465,
+    "status": "normal"
+  },
+  {
+    "image_index": 200,
+    "error": 0.01935591548681259,
+    "status": "normal"
+  }
+]

@@ -33,7 +33,6 @@ def check_directory(directory, autoencoder, threshold):
     """
     files = [f for f in os.listdir(directory) if f.lower().endswith(".png")]
 
-
     total = len(files)
     anomalies = 0
 
