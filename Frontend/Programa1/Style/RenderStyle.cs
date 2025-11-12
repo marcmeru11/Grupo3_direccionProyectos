@@ -16,7 +16,7 @@ public class RenderStyle {
     }
 
     public static RenderStyle Default() {
-        return new RenderStyle(new LightLineBackground());
+        return new RenderStyle(new BackgroundBall());
     }
 
     public void RenderBackground(RenderContext ctx) {
