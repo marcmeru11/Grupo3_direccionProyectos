@@ -16,7 +16,7 @@ public class RenderStyle {
     }
 
     public static RenderStyle Default() {
-        return new RenderStyle(new BackgroundBall());
+        return new RenderStyle(new DarkGradientBackground());
     }
 
     public void RenderBackground(RenderContext ctx) {
