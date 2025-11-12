@@ -28,6 +28,7 @@ def load_image(path):
     return img
 
 def evaluate_image(img):
+    img = tf.convert_to_tensor(np.array(img) / 255.0, dtype=tf.float32)
     img = tf.expand_dims(img, 0)
     reconstructed = model.predict(img, verbose=0)
     error = np.mean(np.abs(img.numpy() - reconstructed))

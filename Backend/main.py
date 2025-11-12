@@ -4,7 +4,7 @@ from pydantic import BaseModel
 import base64
 from io import BytesIO
 from PIL import Image
-from src.tensor_validate import evaluate_image as tf
+from src.tensor_validate import evaluate_image
 
 app = FastAPI()
 
@@ -21,7 +21,7 @@ async def procesar_imagen(data: ImageRequest):
     if data.model == "YOLO":
         response = 0
     elif data.model == "tensorflow":
-        response = tf.evaluate_image(image)
+        response = evaluate_image(image)
     else:
         return JSONResponse({"error": "Model not recognized"}, status_code=400)
 
