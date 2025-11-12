@@ -3,8 +3,8 @@ from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 import base64
 from io import BytesIO
-from PIL import Image, ImageOps
-import tensor_validate as tf
+from PIL import Image
+from src.tensor_validate import evaluate_image as tf
 
 app = FastAPI()
 
@@ -19,7 +19,7 @@ async def procesar_imagen(data: ImageRequest):
     image = Image.open(BytesIO(image_bytes))
 
     if data.model == "YOLO":
-        # yolo here
+        response = 0
     elif data.model == "tensorflow":
         response = tf.evaluate_image(image)
     else:
