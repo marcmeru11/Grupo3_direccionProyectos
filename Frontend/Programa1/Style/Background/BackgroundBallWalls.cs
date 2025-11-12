@@ -7,12 +7,12 @@ using Programa1.Util;
 
 namespace Programa1.Style.Background;
 
-public class BackgroundBall : IBackground
+public class BackgroundBallWalls : IBackground
 {
     private readonly Timer timer = new Timer(1); // El argumento entre 60 (fps) son los segundos (30/60 = 0.5s)
     private Point posicion = new Point(0, 0);
-    private double posX = 0;
-    private bool goingRight = true;
+    private double posX = 0, posY = 0;
+    private bool goingHor = true, goingVert = false; // Hor = false -> Izq | Vert = false -> Abajo
 
     public void Render(RenderContext ctx)
     {
@@ -33,20 +33,20 @@ public class BackgroundBall : IBackground
                 // Actualizar posición cada 0.5 segundos
                 if (timer.Tick())
                 {
-                    if (goingRight) posX += 0.25;
+                    if (goingHor) posX += 0.25;
                     else posX -= 0.25;
 
                     if (posX >= ctx.Bounds.Width)
                     {
-                        goingRight = false;
+                        goingHor = false;
                         posX = ctx.Bounds.Width;
                     }
                     else if (posX <= 0)
                     {
-                        goingRight = true;
+                        goingHor = true;
                         posX = 0;
                     }
-                    posicion = new Point(posX, ctx.Bounds.Height);
+                    posicion = new Point(posX, posY);
 
                 }
                 
