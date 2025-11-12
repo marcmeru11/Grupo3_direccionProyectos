@@ -1,7 +1,5 @@
 ﻿using Avalonia;
-using Avalonia.Controls;
 using Avalonia.Media;
-using Avalonia.Threading;
 using Programa1.layer;
 using Programa1.Layer.Bridge;
 using System;
@@ -11,9 +9,10 @@ namespace Programa1.Style.Background;
 
 public class BackgroundTimer : IBackground
 {
-    private bool mostrarRectangulo = false;
+    private readonly Timer timer = new Timer(120); // El argumento entre 60 (fps) son los segundos (30/60 = 0.5s)
+    private readonly Random rand = new Random();
+    private Point posicion = new Point(0, 0);
 
-    // Método principal de renderizado
     public void Render(RenderContext ctx)
     {
         ctx.Display(
@@ -36,30 +35,16 @@ public class BackgroundTimer : IBackground
                 double posLineY = ctx.Bounds.Width * 2 / 3;
                 dc.DrawLine(new Pen(brush, 2), new Point(posLineY, topHeight), new Point(posLineY, ctx.Bounds.Height));
 
-                // Rectángulo activado por el botón
-                if (mostrarRectangulo)
+                // Actualizar posición cada 2 segundos
+                if (timer.Tick())
                 {
-                    var rectBrush = new SolidColorBrush(Color.Parse("#F5CF27"));
-                    var rect = new Rect(100, 100, 150, 80);
-                    dc.DrawRectangle(rectBrush, null, rect);
+                    double x = rand.NextDouble() * ctx.Bounds.Width;
+                    double y = rand.NextDouble() * ctx.Bounds.Height;
+                    posicion = new Point(x, y);
                 }
-            },
-            overlay: panel =>
-            {
-                var button = new Button
-                {
-                    Content = "Haz clic",
-                    Width = 100,
-                    Height = 40,
-                    Margin = new Thickness(10)
-                };
 
-                button.Click += (_, _) =>
-                {
-                    Class1.botton1 = true;
-                };
-
-                panel.Children.Add(button);
+                // Dibujar círculo
+                dc.DrawEllipse(new SolidColorBrush(Color.Parse("#FFABEF")), null, posicion, 5, 5);
             }
         );
     }
