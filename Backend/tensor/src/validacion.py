@@ -6,9 +6,9 @@ import sys
 import os
 
 #Configuración general
-MODEL_PATH = "model.keras"
-METADATA_PATH = "model/metadata.json"
-OUTPUT_PATH = "results.json"
+MODEL_PATH = "Backend/tensor/src/model.keras"
+METADATA_PATH = "Backend/tensor/src/model/metadata.json"
+OUTPUT_PATH = "Backend/tensor/src/results.json"
 
 IMG_HEIGHT = 500
 IMG_WIDTH = 464
@@ -70,20 +70,3 @@ def evaluate_dataset(model, threshold, dataset, output_path=OUTPUT_PATH):
 
     print(f"\nResultados guardados en {output_path}")
     return results
-
-
-#Seleccion de funcion dependiendo de si se manda una imagen o un directorio
-if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        input_path = sys.argv[1]
-        if os.path.isfile(input_path):
-            evaluate_single_image(model, threshold, input_path)
-        elif os.path.isdir(input_path):
-            dataset = tf.data.Dataset.list_files(os.path.join(input_path, "*.png"))
-            dataset = dataset.map(lambda path: (path, load_image(path))).batch(16)
-            evaluate_dataset(model, threshold, dataset)
-        else:
-            print("Ruta no válida:", input_path)
-    else:
-        dataset = dt.get_dataset()
-        evaluate_dataset(model, threshold, dataset)
