@@ -16,11 +16,7 @@ public class RenderStyle {
     }
 
     public static RenderStyle Default() {
-<<<<<<< Updated upstream
-        return new RenderStyle(new DarkGradientBackground());
-=======
-        return new RenderStyle(new BackgroundBallWalls());
->>>>>>> Stashed changes
+        return new RenderStyle(new BackgroundBallGradiente());
     }
 
     public void RenderBackground(RenderContext ctx) {
