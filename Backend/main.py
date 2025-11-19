@@ -4,7 +4,8 @@ from pydantic import BaseModel
 import base64
 from io import BytesIO
 from PIL import Image
-from src.tensor_validate import evaluate_image
+from tensor.src.tensor_validate import evaluate_image
+import uvicorn
 
 app = FastAPI()
 
@@ -26,3 +27,11 @@ async def procesar_imagen(data: ImageRequest):
         return JSONResponse({"error": "Model not recognized"}, status_code=400)
 
     return JSONResponse(response)
+
+if __name__ == "__main__":
+    uvicorn.run(
+        "main:app",
+        host="0.0.0.0",
+        port=8000,
+        reload=True
+    )

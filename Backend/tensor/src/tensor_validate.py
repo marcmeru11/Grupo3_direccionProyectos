@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 import json
-import data_loader as dt
+from tensor.src import data_loader as dt
 import base64
 
 
