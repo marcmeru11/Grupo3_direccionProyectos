@@ -85,32 +85,6 @@ def train_autoencoder():
         json.dump(metadata, f)
 
     return model, threshold
-'''
-#Evaluamos todas las imágenes del dataset y genera un JSON con los errores y clasificaciones
-def evaluate_all_images(model, threshold, dataset, output_path="results.json"):
-    results = []
-    index = 0
-
-    for paths, batch in dataset:
-        reconstructed = model.predict(batch, verbose=0)
-        batch_errors = np.mean(np.abs(batch.numpy() - reconstructed), axis=(1, 2, 3))
-
-        for i, error in enumerate(batch_errors):
-            file_path = paths[i].numpy().decode("utf-8")
-            status = "defective" if error > threshold else "normal"
-            results.append({
-                "image_index": index,
-                "error": float(error),
-                "status": status
-            })
-            print(f"[{index:04d}] {status.upper()} | Error = {error:.6f}")
-            index += 1
-
-    with open(output_path, "w") as f:
-        json.dump(results, f, indent=2)
-
-    return results
-'''
 
 if __name__ == '__main__':
     mode, threshold = train_autoencoder()
