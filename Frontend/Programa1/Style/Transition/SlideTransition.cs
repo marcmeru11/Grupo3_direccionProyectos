@@ -9,13 +9,13 @@ namespace Programa1.Style.Transition
     public class SlideTransition : ITransition
     {
         private double _progress = 0;
-        private int _phase = 0;
+        private int _phase = 0; // ahora solo la fase de salida
         private readonly double _speed;
         private readonly SlideDirection _direction;
         private readonly SlideReturn _returnDirection;
 
         public SlideTransition(double speed = 0.02,
-                             SlideDirection direction = SlideDirection.Left, // direccion de entrada
+                             SlideDirection direction = SlideDirection.Left, // direccion de salida
                              SlideReturn returnDirection = SlideReturn.Same) // direccion de regreso
         {
             _speed = speed;
@@ -48,11 +48,10 @@ namespace Programa1.Style.Transition
                 double width = ctx.Bounds.Width;
                 double height = ctx.Bounds.Height;
 
-                SlideDirection currentDir = _phase == 0 ? _direction : GetReturnDirection();
+                SlideDirection currentDir = GetReturnDirection();
 
-                double offset = _phase == 0 ?
-                    width * (1 - _progress) :  // entra
-                    -width * _progress;        // sale
+                // sale
+                double offset = -width * _progress;
 
                 if (currentDir == SlideDirection.Left)
                     offset = -offset;
@@ -63,15 +62,7 @@ namespace Programa1.Style.Transition
             // cambiar fase
             if (_progress >= 1)
             {
-                if (_phase == 0)
-                {
-                    _phase = 1;
-                    _progress = 0;
-                }
-                else
-                {
-                    _phase = 2;
-                }
+                _phase = 2;
             }
         }
 
@@ -79,8 +70,8 @@ namespace Programa1.Style.Transition
         {
             return _returnDirection switch
             {
-                SlideReturn.Same => _direction, 
-                SlideReturn.Opposite => _direction == SlideDirection.Right ? SlideDirection.Left : SlideDirection.Right, // dirección opuesta
+                SlideReturn.Same => _direction,
+                SlideReturn.Opposite => _direction == SlideDirection.Right ? SlideDirection.Left : SlideDirection.Right,
                 _ => _direction
             };
         }
@@ -111,7 +102,7 @@ namespace Programa1.Style.Transition
 
     public enum SlideReturn
     {
-        Same,      
-        Opposite   
+        Same,
+        Opposite
     }
 }

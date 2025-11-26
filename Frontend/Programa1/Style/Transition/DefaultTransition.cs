@@ -8,7 +8,7 @@ namespace Programa1.Style.Transition
 {
     public class DefaultTransition : ITransition
     {
-        private double _opacity = 0;
+        private double _opacity = 1;
         private int _phase = 0;          // control de fases
         private readonly double _speed;
         private readonly Color _color;

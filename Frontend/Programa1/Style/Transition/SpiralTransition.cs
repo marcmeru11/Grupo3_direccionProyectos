@@ -8,8 +8,8 @@ namespace Programa1.Style.Transition
 {
     public class SpiralTransition : ITransition
     {
-        private double _progress = 0;
-        private int _phase = 0;
+        private double _progress = 1;
+        private int _phase = 1;
         private readonly double _speed;
         private readonly bool _clockwise;
         private readonly SolidColorBrush _brush;
@@ -38,15 +38,9 @@ namespace Programa1.Style.Transition
             }
 
             // actualizar progreso
-            if (_phase == 0) _progress += _speed;
-            else if (_phase == 1) _progress -= _speed;
+            if (_phase == 1) _progress -= _speed;
 
-            if (_progress >= 1)
-            {
-                _progress = 1;
-                _phase = 1;
-            }
-            else if (_progress <= 0 && _phase == 1)
+            if (_progress <= 0 && _phase == 1)
             {
                 _progress = 0;
                 _phase = 2;
@@ -80,8 +74,8 @@ namespace Programa1.Style.Transition
 
         public void Reset()
         {
-            _progress = 0;
-            _phase = 0;
+            _progress = 1;
+            _phase = 1;
             _notifiedComplete = false;
         }
 
