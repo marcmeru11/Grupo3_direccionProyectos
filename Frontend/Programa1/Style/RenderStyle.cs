@@ -1,7 +1,6 @@
 using Programa1.layer;
 using Programa1.Layer.Bridge;
 using Programa1.Style.Background;
-using Programa1.Style.Transition;
 
 namespace Programa1.Style;
 
@@ -11,26 +10,17 @@ namespace Programa1.Style;
 public class RenderStyle {
 
     private readonly IBackground _background;
-    private readonly ITransition _transition;
     
-    public RenderStyle(IBackground background, ITransition transition) {
+    public RenderStyle(IBackground background) {
         _background = background;
-        _transition = transition;
     }
 
     public static RenderStyle Default() {
-        return new RenderStyle(
-            new DefaultBackground(),
-            new DefaultTransition()
-        );
+        return new RenderStyle(new DefaultBackground());
     }
 
     public void RenderBackground(RenderContext ctx) {
         _background.Render(ctx);
-    }
-
-    public void RenderTransition(RenderContext ctx) {
-        _transition.Render(ctx);
     }
 
     /// TODO: Keep creating different bridge methods. Do NOT use existing bridges if the renderer doesn't match the layer type (for example, don't call
@@ -40,5 +30,5 @@ public class RenderStyle {
     ///         _programLogo.Render(ctx);
     ///     }
     /// </code>
-
+    
 }
