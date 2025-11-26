@@ -28,11 +28,11 @@ namespace Programa1.Style.Transition
 
         public event Action? OnTransitionComplete;
 
-        public bool IsComplete => _phase == 2;
+        public bool IsComplete => _phase == 1;
 
         public void Render(RenderContext ctx)
         {
-            if (_phase == 2)
+            if (_phase == 1)
             {
                 // notificar fin
                 if (!_notifiedComplete)
@@ -80,35 +80,18 @@ namespace Programa1.Style.Transition
                 }
             });
 
-            // cambiar fase cuando el último llegue al final
+            // terminar cuando el último llegue al final
             if (_progress >= 1.0 + ((_blindsCount - 1) * 0.1))
             {
-                if (_phase == 0)
-                {
-                    _phase = 1;
-                    _progress = 0;
-                }
-                else
-                {
-                    _phase = 2;
-                }
+                _phase = 1;
             }
         }
 
         private double CalculateBlindProgress(int blindIndex)
         {
-            if (_phase == 0)
-            {
-                // abrir: progreso escalonado
-                double blindStart = blindIndex * 0.1;
-                return Math.Max(0, Math.Min(1, (_progress - blindStart) / (1 - blindStart)));
-            }
-            else
-            {
-                // cerrar: progreso escalonado inverso
-                double blindStart = (_blindsCount - 1 - blindIndex) * 0.1;
-                return Math.Max(0, Math.Min(1, (1 - (_progress - blindStart) / (1 - blindStart))));
-            }
+            // desaparecer: empezar en 1 y ir a 0
+            double blindStart = blindIndex * 0.1;
+            return Math.Max(0, Math.Min(1, 1 - ((_progress - blindStart) / (1 - blindStart))));
         }
 
         public void Reset()
@@ -126,7 +109,7 @@ namespace Programa1.Style.Transition
         public void Skip()
         {
             _progress = 0;
-            _phase = 2;
+            _phase = 1;
             OnTransitionComplete?.Invoke();
         }
     }

@@ -34,11 +34,11 @@ namespace Programa1.Style.Transition
 
         public event Action? OnTransitionComplete;
 
-        public bool IsComplete => _phase == 2;
+        public bool IsComplete => _phase == 1;
 
         public void Render(RenderContext ctx)
         {
-            if (_phase == 2)
+            if (_phase == 1)
             {
                 // notificar fin
                 if (!_notifiedComplete)
@@ -71,16 +71,7 @@ namespace Programa1.Style.Transition
 
                     double tileProgress;
 
-                    if (_phase == 0)
-                    {
-                        // aparecer: tile activo si está en procesamiento
-                        tileProgress = i < tilesToProcess ? 1.0 : 0.0;
-                    }
-                    else
-                    {
-                        // desaparecer: tile activo si NO está en procesamiento
-                        tileProgress = i >= tilesToProcess ? 1.0 : 0.0;
-                    }
+                    tileProgress = i >= tilesToProcess ? 1.0 : 0.0;
 
                     if (tileProgress > 0)
                     {
@@ -89,18 +80,10 @@ namespace Programa1.Style.Transition
                 }
             });
 
-            // cambiar fase cuando todos los tiles estén procesados
+            // terminar cuando todos los tiles estén procesados
             if (_progress >= 1.0)
             {
-                if (_phase == 0)
-                {
-                    _phase = 1;
-                    _progress = 0;
-                }
-                else
-                {
-                    _phase = 2;
-                }
+                _phase = 1;
             }
         }
 
@@ -178,7 +161,7 @@ namespace Programa1.Style.Transition
         public void Skip()
         {
             _progress = 0;
-            _phase = 2;
+            _phase = 1;
             OnTransitionComplete?.Invoke();
         }
     }

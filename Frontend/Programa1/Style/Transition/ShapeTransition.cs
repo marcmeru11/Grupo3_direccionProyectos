@@ -24,11 +24,11 @@ namespace Programa1.Style.Transition
 
         public event Action? OnTransitionComplete;
 
-        public bool IsComplete => _phase == 2;
+        public bool IsComplete => _phase == 1;
 
         public void Render(RenderContext ctx)
         {
-            if (_phase == 2)
+            if (_phase == 1)
             {
                 if (!_notifiedComplete)
                 {
@@ -39,17 +39,12 @@ namespace Programa1.Style.Transition
             }
 
             // actualizar progreso
-            _progress += (_phase == 0 ? _speed : -_speed);
+            _progress += _speed;
 
             if (_progress >= 1.0)
             {
                 _progress = 1.0;
-                _phase = 1; // contracción
-            }
-            else if (_progress <= 0.0 && _phase == 1)
-            {
-                _progress = 0.0;
-                _phase = 2; // terminado
+                _phase = 1; // terminado
             }
 
             // dibujar círculo
@@ -57,7 +52,7 @@ namespace Programa1.Style.Transition
             {
                 var center = new Point(ctx.Bounds.Width / 2, ctx.Bounds.Height / 2);
                 double maxSize = Math.Max(ctx.Bounds.Width, ctx.Bounds.Height);
-                double size = maxSize * _progress * 1.5;
+                double size = maxSize * (1.0 - _progress) * 1.5; // invertir progreso
 
                 var geometry = new StreamGeometry();
                 using (var gctx = geometry.Open())
@@ -91,7 +86,7 @@ namespace Programa1.Style.Transition
         public void Skip()
         {
             _progress = 0;
-            _phase = 2;
+            _phase = 1;
             OnTransitionComplete?.Invoke();
         }
     }
