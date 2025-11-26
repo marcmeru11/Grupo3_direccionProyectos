@@ -1,1 +1,5 @@
-Backend/tensor/dataset/cropped_images
+Backend/YOLO/yoloV10/
+Backend/YOLO/dataset_yolo/
+Backend/YOLO/Data
+Backend/tensor/dataset/second_dataset/cropped_images
+runs
