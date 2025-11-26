@@ -6,12 +6,20 @@ from io import BytesIO
 from PIL import Image
 from tensor.src.tensor_validate import evaluate_image
 import uvicorn
+import os
+import tempfile
 
 app = FastAPI()
 
 class ImageRequest(BaseModel):
     model: str
     image_base64: str
+
+def guardar_imagen(bytes_imagen):
+    temp = tempfile.NamedTemporaryFile(delete=False, suffix=".png", dir = "Backend/tmp")
+    temp.write(bytes_imagen)
+    temp.close()
+    return temp.name
 
 @app.post("/procesar")
 async def procesar_imagen(data: ImageRequest):
@@ -20,7 +28,10 @@ async def procesar_imagen(data: ImageRequest):
     image = Image.open(BytesIO(image_bytes))
 
     if data.model == "YOLO":
-        response = 0
+        temp_path = guardar_imagen(image_bytes)
+        response = evaluate_image(temp_path)
+        os.remove(temp_path)
+
     elif data.model == "tensorflow":
         response = evaluate_image(image)
     else:
