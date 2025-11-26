@@ -49,4 +49,3 @@ def evaluate_image(img):
     }
     
     return result
-

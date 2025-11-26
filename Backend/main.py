@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Request
+from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 import base64
@@ -21,7 +21,7 @@ async def procesar_imagen(data: ImageRequest):
 
     if data.model == "YOLO":
         response = 0
-    elif data.model == "tensorflow":
+    elif data.model == "tensorflow":             
         response = evaluate_image(image)
     else:
         return JSONResponse({"error": "Model not recognized"}, status_code=400)
