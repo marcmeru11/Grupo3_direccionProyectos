@@ -62,7 +62,7 @@ public class BackgroundBallGradiente : IBackground
                     SpreadMethod = GradientSpreadMethod.Pad,
                     GradientStops = new GradientStops
                     {
-                        new GradientStop(Color.Parse("#e2ddd0"), 0), // Centro
+                        new GradientStop(Color.Parse("#e2ddd0"), 0), // Centro 
                         new GradientStop(Color.Parse("#FFB6C1"), 1)  // Borde (Mismo color que el fondo)
                     }
                 };

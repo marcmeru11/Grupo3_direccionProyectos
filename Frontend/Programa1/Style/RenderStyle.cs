@@ -16,7 +16,7 @@ public class RenderStyle {
     }
 
     public static RenderStyle Default() {
-        return new RenderStyle(new BackgroundBallGradiente());
+        return new RenderStyle(new MatrixBackground());
     }
 
     public void RenderBackground(RenderContext ctx) {
