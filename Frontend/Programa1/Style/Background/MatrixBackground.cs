@@ -8,94 +8,115 @@ using Programa1.Layer.Bridge;
 using Programa1.Util;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Globalization;
 
 namespace Programa1.Style.Background;
 
-public class MatrixBackground : IBackground{
-
+public class MatrixBackground : IBackground
+{
     private readonly Timer timer = new Timer(1); // El argumento entre 60 (fps) son los segundos (30/60 = 0.5s)
     private static Random random = new Random();
-    private List<char> lista1 = [], lista2 = [], lista3 = [], lista4 = [];
-    private int c1 = 0, c2 = 0, c3 = 0, c4 = 0;
+
+    //Dinamic lists to hold the columns and their counters
+    private List<List<char>> columnas = new List<List<char>>();
+    private List<int> contadores = new List<int>();
+
     private SolidColorBrush letterBrush = new SolidColorBrush(Color.Parse("#2dc724"));
 
-    public void AñadirLetraAleatoria(List<char> listaActual, ref int contador)
+    // "añadir letra aleatoria" means "add random letter" (for erasmus students)
+    private void AnadirLetraAleatoria(List<char> listaActual)
     {
-        if ( contador == 15)
-        {
-            // CON ESTO NO DECRECE, SOLO AUMENTA HASTA UN LIMITE.
-            // Para que disminiya, habría que borrar las letras que sobrepasen el límite.
-            for (int a = 0; a < random.Next(3, 11); a++)
-            {
-                int index = random.Next(MatrixLetters.Lista.Length);
-                char letra = MatrixLetters.Lista[index];
-                if (listaActual.Count > a)
-                {
-                    listaActual[a] = letra;
-                }
-                else
-                {
-                    listaActual.Add(letra);
-                }
-            }
-            contador = 0;
-        }
-        else { 
-            contador++;
-        }
+        int lenght = listaActual.Count;
+        if (lenght == 0) lenght = random.Next(3, 11); // Init if the list is empty
 
+        for (int a = 0; a < lenght; a++)
+        {
+            // Selects a random letter from the MatrixLetters list
+            int index = random.Next(MatrixLetters.Lista.Length);
+            char letra = MatrixLetters.Lista[index];
+
+            // Adds (or updates) the letter to the current list
+            if (listaActual.Count > a)
+            {
+                listaActual[a] = letra;
+            }
+            else
+            {
+                listaActual.Add(letra);
+            }
+        }
     }
 
-    private void dibujarColumnas(List<char> lista, DrawingContext dc, int xPos, ref int contador) {
-
+    // "dibuja columnas" means "draw columns" (for erasmus students)
+    private void dibujarColumnas(List<char> lista, DrawingContext dc, int xPos, int indiceColumna)
+    {
         if (timer.Tick())
         {
-            AñadirLetraAleatoria(lista, ref contador);
+            // Updates the counter for the current column
+            contadores[indiceColumna]++;
+            if (contadores[indiceColumna] >= 15)
+            {
+                AnadirLetraAleatoria(lista);
+                contadores[indiceColumna] = 0;
+            }
 
+            // Formats the characters and draws them on the screen
             int y = 0;
             foreach (char letra in lista)
             {
-
                 FormattedText texto = new FormattedText(
-                letra.ToString(),
-                CultureInfo.InvariantCulture,
-                FlowDirection.LeftToRight,
-                new Typeface("Arial"),
-                16,
-                letterBrush);
+                    letra.ToString(),
+                    CultureInfo.InvariantCulture,
+                    FlowDirection.LeftToRight,
+                    new Typeface("Arial"),
+                    16,
+                    letterBrush);
 
                 dc.DrawText(texto, new Point(xPos, y));
-                y += 20; // espacio entre líneas
+                y += 20; // Vertical spacing between letters (hardcoded UwU)
             }
         }
-
     }
 
-
-    public void Render(RenderContext ctx){
+    public void Render(RenderContext ctx)
+    {
         ctx.Display(
-            draw: dc => {
-                //Base
+            draw: dc =>
+            {
+                // Base
                 var color = Color.Parse("#0F0F0F");
                 var brush = new SolidColorBrush(color);
                 dc.FillRectangle(brush, new Rect(ctx.Bounds.Size));
 
+                // Calculamos cuántas columnas caben en el ancho de la pantalla
+                int numeroColumnas = (int)(ctx.Bounds.Width / 30);
 
-                //Columnas de Matrix
-                dibujarColumnas(lista1, dc, 0, ref c1);
-                Console.WriteLine(c1);
-                dibujarColumnas(lista2, dc, 30, ref c2);
-                Console.WriteLine(c2);
-                dibujarColumnas(lista3, dc, 60, ref c3);
-                Console.WriteLine(c3);
-                dibujarColumnas(lista4, dc, 90, ref c4);
-                Console.WriteLine(c4);
+                //Adjust the number of columns to match the screen width (bigger screen, more columns)
+                while (columnas.Count < numeroColumnas)
+                {
+                    columnas.Add(new List<char>());
+                }
+                while (columnas.Count > numeroColumnas)
+                {
+                    columnas.RemoveAt(columnas.Count - 1);
+                }
 
+                // Make sure the counters list matches the number of columns
+                while (contadores.Count < columnas.Count)
+                {
+                    contadores.Add(0); // Counter init
+                }
+                while (contadores.Count > columnas.Count)
+                {
+                    contadores.RemoveAt(contadores.Count - 1); // Delete extra counters (if screen size decreases)
+                }
+
+                // Dibujar todas las columnas
+                for (int i = 0; i < columnas.Count; i++)
+                {
+                    dibujarColumnas(columnas[i], dc, i * 30, i); // Index * 30 to space columns horizontally (30 is also hardcoded hehe)
+                }
             }
         );
-
     }
-
 }
