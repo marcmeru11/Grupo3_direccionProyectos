@@ -20,6 +20,9 @@ public class MatrixBackground : IBackground
     //Dinamic lists to hold the columns and their counters
     private List<List<char>> columnas = new List<List<char>>();
     private List<int> contadores = new List<int>();
+    private List<int> offsets = new List<int>();
+    private List<int> delays = new List<int>();
+
 
     private SolidColorBrush letterBrush = new SolidColorBrush(Color.Parse("#2dc724"));
 
@@ -27,7 +30,7 @@ public class MatrixBackground : IBackground
     private void AnadirLetraAleatoria(List<char> listaActual)
     {
         int lenght = listaActual.Count;
-        if (lenght == 0) lenght = random.Next(3, 11); // Init if the list is empty
+        if (lenght == 0) lenght = random.Next(3, 15); // Init if the list is empty
 
         for (int a = 0; a < lenght; a++)
         {
@@ -48,8 +51,15 @@ public class MatrixBackground : IBackground
     }
 
     // "dibuja columnas" means "draw columns" (for erasmus students)
-    private void dibujarColumnas(List<char> lista, DrawingContext dc, int xPos, int indiceColumna)
+    private void dibujarColumnas(List<char> lista, DrawingContext dc, int xPos, int indiceColumna, double maxHeight)
     {
+        if (delays[indiceColumna] > 0)
+        {
+            // Todavía está en espera, reducimos el contador y no dibujamos nada
+            delays[indiceColumna]--;
+            return;
+        }
+
         if (timer.Tick())
         {
             // Updates the counter for the current column
@@ -61,7 +71,7 @@ public class MatrixBackground : IBackground
             }
 
             // Formats the characters and draws them on the screen
-            int y = 0;
+            int y = offsets[indiceColumna];
             foreach (char letra in lista)
             {
                 FormattedText texto = new FormattedText(
@@ -74,6 +84,14 @@ public class MatrixBackground : IBackground
 
                 dc.DrawText(texto, new Point(xPos, y));
                 y += 20; // Vertical spacing between letters (hardcoded UwU)
+            }
+
+            offsets[indiceColumna] += 2; // Speed of the falling letters
+            if(offsets[indiceColumna] > maxHeight)
+            {
+
+                delays[indiceColumna] = random.Next(100, 300);
+                offsets[indiceColumna] = 0; // Reset offset if it exceeds the screen height
             }
         }
     }
@@ -111,11 +129,34 @@ public class MatrixBackground : IBackground
                     contadores.RemoveAt(contadores.Count - 1); // Delete extra counters (if screen size decreases)
                 }
 
+                //The same with the offsets list
+                while (offsets.Count < columnas.Count)
+                {
+                    offsets.Add(0); // each column inits at 0
+                }
+                while (offsets.Count > columnas.Count)
+                {
+                    offsets.RemoveAt(offsets.Count - 1);
+                }
+
+                //The delays make the columns start at different times
+                while (delays.Count < columnas.Count)
+                {
+                    delays.Add(random.Next(200, 600)); // each column waits between arg1 and arg2 frames to start
+                }
+                while (delays.Count > columnas.Count)
+                {
+                    delays.RemoveAt(delays.Count - 1);
+                }
+
+
                 // Dibujar todas las columnas
                 for (int i = 0; i < columnas.Count; i++)
                 {
-                    dibujarColumnas(columnas[i], dc, i * 30, i); // Index * 30 to space columns horizontally (30 is also hardcoded hehe)
+                    dibujarColumnas(columnas[i], dc, i * 30, i, ctx.Bounds.Height); // Index * 30 to space columns horizontally (30 is also hardcoded hehe)
                 }
+
+                
             }
         );
     }
