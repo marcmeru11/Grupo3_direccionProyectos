@@ -2,6 +2,6 @@ tensorflow==2.10.0
 matplotlib==3.9.4
 numpy==1.26.4
 pillow==11.3.0
-fastapi
+fastapi[all]
 uvicorn[standard]
 ultralytics==8.3.204

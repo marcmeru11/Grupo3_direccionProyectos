@@ -6,9 +6,9 @@ import base64
 
 
 #Configuración general
-MODEL_PATH = "Backend/tensor/src/model.keras"
-METADATA_PATH = "Backend/tensor/src/model/metadata.json"
-OUTPUT_PATH = "Backend/tensor/src/results.json"
+MODEL_PATH = "/app/Backend/tensor/src/model.keras"
+METADATA_PATH = "/app/Backend/tensor/src/model/metadata.json"
+OUTPUT_PATH = "/app/Backend/tensor/src/results.json"
 
 IMG_HEIGHT = 500
 IMG_WIDTH = 464
