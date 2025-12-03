@@ -13,10 +13,9 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-# CORS abierto para desarrollo
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Permite cualquier frontend
+    allow_origins=["*"],  # permite cualquier frontend
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
