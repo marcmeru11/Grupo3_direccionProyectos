@@ -91,7 +91,7 @@ public class MatrixBackground : IBackground
             {
 
                 delays[indiceColumna] = random.Next(100, 300);
-                offsets[indiceColumna] = 0; // Reset offset if it exceeds the screen height
+                offsets[indiceColumna] = - 500; // Reset offset if it exceeds the screen height
             }
         }
     }
