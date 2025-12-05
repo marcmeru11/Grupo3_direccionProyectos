@@ -1,0 +1,2558 @@
+[
+  {
+    "image_index": 0,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_08.47.57_11150774_cam_H2674069.png",
+    "error": 0.01881818100810051,
+    "status": "normal"
+  },
+  {
+    "image_index": 1,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_08.48.44_11150782_cam_H2674069.png",
+    "error": 0.0250147245824337,
+    "status": "normal"
+  },
+  {
+    "image_index": 2,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_08.49.30_11150789_cam_H2674069.png",
+    "error": 0.027522407472133636,
+    "status": "defective"
+  },
+  {
+    "image_index": 3,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_08.50.17_11150815_cam_H2674069.png",
+    "error": 0.030218373984098434,
+    "status": "defective"
+  },
+  {
+    "image_index": 4,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_08.51.03_11150823_cam_H2674069.png",
+    "error": 0.019122909754514694,
+    "status": "normal"
+  },
+  {
+    "image_index": 5,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_08.51.50_11150831_cam_H2674069.png",
+    "error": 0.018637146800756454,
+    "status": "normal"
+  },
+  {
+    "image_index": 6,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_08.52.37_11150840_cam_H2674069.png",
+    "error": 0.02015332132577896,
+    "status": "normal"
+  },
+  {
+    "image_index": 7,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_08.53.23_11150848_cam_H2674069.png",
+    "error": 0.02820381335914135,
+    "status": "defective"
+  },
+  {
+    "image_index": 8,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_08.54.09_11150856_cam_H2674069.png",
+    "error": 0.02717452682554722,
+    "status": "defective"
+  },
+  {
+    "image_index": 9,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_08.54.56_11150863_cam_H2674069.png",
+    "error": 0.017960138618946075,
+    "status": "normal"
+  },
+  {
+    "image_index": 10,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_08.55.42_11150871_cam_H2674069.png",
+    "error": 0.019882453605532646,
+    "status": "normal"
+  },
+  {
+    "image_index": 11,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_08.56.29_11150880_cam_H2674069.png",
+    "error": 0.018900612369179726,
+    "status": "normal"
+  },
+  {
+    "image_index": 12,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_08.57.15_11150887_cam_H2674069.png",
+    "error": 0.018175825476646423,
+    "status": "normal"
+  },
+  {
+    "image_index": 13,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_08.58.01_11150896_cam_H2674069.png",
+    "error": 0.020904121920466423,
+    "status": "normal"
+  },
+  {
+    "image_index": 14,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_08.58.48_11150903_cam_H2674069.png",
+    "error": 0.01819523796439171,
+    "status": "normal"
+  },
+  {
+    "image_index": 15,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_08.59.34_11150912_cam_H2674069.png",
+    "error": 0.018100138753652573,
+    "status": "normal"
+  },
+  {
+    "image_index": 16,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.00.21_11150955_cam_H2674069.png",
+    "error": 0.017808806151151657,
+    "status": "normal"
+  },
+  {
+    "image_index": 17,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.01.08_11150963_cam_H2674069.png",
+    "error": 0.01886141113936901,
+    "status": "normal"
+  },
+  {
+    "image_index": 18,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.01.54_11150971_cam_H2674069.png",
+    "error": 0.018535172566771507,
+    "status": "normal"
+  },
+  {
+    "image_index": 19,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.02.41_11150978_cam_H2674069.png",
+    "error": 0.019028056412935257,
+    "status": "normal"
+  },
+  {
+    "image_index": 20,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.03.27_11150985_cam_H2674069.png",
+    "error": 0.02719045989215374,
+    "status": "defective"
+  },
+  {
+    "image_index": 21,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.04.14_11150992_cam_H2674069.png",
+    "error": 0.025408104062080383,
+    "status": "normal"
+  },
+  {
+    "image_index": 22,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.05.00_11151015_cam_H2674069.png",
+    "error": 0.01962357386946678,
+    "status": "normal"
+  },
+  {
+    "image_index": 23,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.05.47_11151021_cam_H2674069.png",
+    "error": 0.01952802762389183,
+    "status": "normal"
+  },
+  {
+    "image_index": 24,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.06.33_11151028_cam_H2674069.png",
+    "error": 0.021108539775013924,
+    "status": "normal"
+  },
+  {
+    "image_index": 25,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.07.20_11151035_cam_H2674069.png",
+    "error": 0.018341679126024246,
+    "status": "normal"
+  },
+  {
+    "image_index": 26,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.08.07_11151042_cam_H2674069.png",
+    "error": 0.024468066170811653,
+    "status": "normal"
+  },
+  {
+    "image_index": 27,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.08.53_11151049_cam_H2674069.png",
+    "error": 0.02403271198272705,
+    "status": "normal"
+  },
+  {
+    "image_index": 28,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.09.40_11151056_cam_H2674069.png",
+    "error": 0.018027685582637787,
+    "status": "normal"
+  },
+  {
+    "image_index": 29,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.10.26_11151063_cam_H2674069.png",
+    "error": 0.018284928053617477,
+    "status": "normal"
+  },
+  {
+    "image_index": 30,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.11.13_11151070_cam_H2674069.png",
+    "error": 0.018740229308605194,
+    "status": "normal"
+  },
+  {
+    "image_index": 31,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.11.59_11151077_cam_H2674069.png",
+    "error": 0.026493584737181664,
+    "status": "defective"
+  },
+  {
+    "image_index": 32,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.12.46_11151082_cam_H2674069.png",
+    "error": 0.025182196870446205,
+    "status": "normal"
+  },
+  {
+    "image_index": 33,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.13.33_11151089_cam_H2674069.png",
+    "error": 0.0190371535718441,
+    "status": "normal"
+  },
+  {
+    "image_index": 34,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.14.20_11151096_cam_H2674069.png",
+    "error": 0.019175542518496513,
+    "status": "normal"
+  },
+  {
+    "image_index": 35,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.15.06_11151121_cam_H2674069.png",
+    "error": 0.03080453909933567,
+    "status": "defective"
+  },
+  {
+    "image_index": 36,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.16.09_11151128_cam_H2674069.png",
+    "error": 0.019682835787534714,
+    "status": "normal"
+  },
+  {
+    "image_index": 37,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.16.55_11151135_cam_H2674069.png",
+    "error": 0.028664104640483856,
+    "status": "defective"
+  },
+  {
+    "image_index": 38,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.17.42_11151142_cam_H2674069.png",
+    "error": 0.018645290285348892,
+    "status": "normal"
+  },
+  {
+    "image_index": 39,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.18.28_11151149_cam_H2674069.png",
+    "error": 0.018791034817695618,
+    "status": "normal"
+  },
+  {
+    "image_index": 40,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.19.14_11151157_cam_H2674069.png",
+    "error": 0.018136003986001015,
+    "status": "normal"
+  },
+  {
+    "image_index": 41,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.20.01_11151200_cam_H2674069.png",
+    "error": 0.030163360759615898,
+    "status": "defective"
+  },
+  {
+    "image_index": 42,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.20.48_11151208_cam_H2674069.png",
+    "error": 0.019274700433015823,
+    "status": "normal"
+  },
+  {
+    "image_index": 43,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.21.34_11151217_cam_H2674069.png",
+    "error": 0.01865357905626297,
+    "status": "normal"
+  },
+  {
+    "image_index": 44,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.22.21_11151225_cam_H2674069.png",
+    "error": 0.018555661663413048,
+    "status": "normal"
+  },
+  {
+    "image_index": 45,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.23.08_11151231_cam_H2674069.png",
+    "error": 0.030584143474698067,
+    "status": "defective"
+  },
+  {
+    "image_index": 46,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.23.54_11151240_cam_H2674069.png",
+    "error": 0.018575699999928474,
+    "status": "normal"
+  },
+  {
+    "image_index": 47,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.33.17_11151249_cam_H2674069.png",
+    "error": 0.017803842201828957,
+    "status": "normal"
+  },
+  {
+    "image_index": 48,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.34.04_11151258_cam_H2674069.png",
+    "error": 0.028167253360152245,
+    "status": "defective"
+  },
+  {
+    "image_index": 49,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.39.36_11151267_cam_H2674069.png",
+    "error": 0.021085137501358986,
+    "status": "normal"
+  },
+  {
+    "image_index": 50,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.40.23_11151401_cam_H2674069.png",
+    "error": 0.017799820750951767,
+    "status": "normal"
+  },
+  {
+    "image_index": 51,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.41.10_11151410_cam_H2674069.png",
+    "error": 0.02891392447054386,
+    "status": "defective"
+  },
+  {
+    "image_index": 52,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.41.56_11151456_cam_H2674069.png",
+    "error": 0.020035460591316223,
+    "status": "normal"
+  },
+  {
+    "image_index": 53,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.42.43_11151466_cam_H2674069.png",
+    "error": 0.018983591347932816,
+    "status": "normal"
+  },
+  {
+    "image_index": 54,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.47.54_11151475_cam_H2674069.png",
+    "error": 0.025581125169992447,
+    "status": "normal"
+  },
+  {
+    "image_index": 55,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.48.41_11151484_cam_H2674069.png",
+    "error": 0.018226327374577522,
+    "status": "normal"
+  },
+  {
+    "image_index": 56,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.49.27_11151493_cam_H2674069.png",
+    "error": 0.019640082493424416,
+    "status": "normal"
+  },
+  {
+    "image_index": 57,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.50.14_11151591_cam_H2674069.png",
+    "error": 0.02899002656340599,
+    "status": "defective"
+  },
+  {
+    "image_index": 58,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.51.01_11151598_cam_H2674069.png",
+    "error": 0.026858098804950714,
+    "status": "defective"
+  },
+  {
+    "image_index": 59,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.51.47_11151605_cam_H2674069.png",
+    "error": 0.02352513186633587,
+    "status": "normal"
+  },
+  {
+    "image_index": 60,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.52.34_11151612_cam_H2674069.png",
+    "error": 0.018695587292313576,
+    "status": "normal"
+  },
+  {
+    "image_index": 61,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.53.20_11151620_cam_H2674069.png",
+    "error": 0.018682081252336502,
+    "status": "normal"
+  },
+  {
+    "image_index": 62,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.54.07_11151625_cam_H2674069.png",
+    "error": 0.0199480801820755,
+    "status": "normal"
+  },
+  {
+    "image_index": 63,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.54.53_11151632_cam_H2674069.png",
+    "error": 0.019100503996014595,
+    "status": "normal"
+  },
+  {
+    "image_index": 64,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.55.40_11151639_cam_H2674069.png",
+    "error": 0.024654066190123558,
+    "status": "normal"
+  },
+  {
+    "image_index": 65,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.56.27_11151648_cam_H2674069.png",
+    "error": 0.024201929569244385,
+    "status": "normal"
+  },
+  {
+    "image_index": 66,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.57.14_11151657_cam_H2674069.png",
+    "error": 0.02341384068131447,
+    "status": "normal"
+  },
+  {
+    "image_index": 67,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.58.00_11151666_cam_H2674069.png",
+    "error": 0.027778036892414093,
+    "status": "defective"
+  },
+  {
+    "image_index": 68,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.58.47_11151676_cam_H2674069.png",
+    "error": 0.025339515879750252,
+    "status": "normal"
+  },
+  {
+    "image_index": 69,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_09.59.34_11151684_cam_H2674069.png",
+    "error": 0.019450712949037552,
+    "status": "normal"
+  },
+  {
+    "image_index": 70,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.00.20_11151711_cam_H2674069.png",
+    "error": 0.018298566341400146,
+    "status": "normal"
+  },
+  {
+    "image_index": 71,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.01.07_11151720_cam_H2674069.png",
+    "error": 0.018071867525577545,
+    "status": "normal"
+  },
+  {
+    "image_index": 72,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.01.53_11151729_cam_H2674069.png",
+    "error": 0.019602790474891663,
+    "status": "normal"
+  },
+  {
+    "image_index": 73,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.02.40_11151735_cam_H2674069.png",
+    "error": 0.030449900776147842,
+    "status": "defective"
+  },
+  {
+    "image_index": 74,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.03.26_11151741_cam_H2674069.png",
+    "error": 0.027507200837135315,
+    "status": "defective"
+  },
+  {
+    "image_index": 75,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.04.13_11151750_cam_H2674069.png",
+    "error": 0.02291247434914112,
+    "status": "normal"
+  },
+  {
+    "image_index": 76,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.05.00_11151793_cam_H2674069.png",
+    "error": 0.018704120069742203,
+    "status": "normal"
+  },
+  {
+    "image_index": 77,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.05.46_11151803_cam_H2674069.png",
+    "error": 0.01941061019897461,
+    "status": "normal"
+  },
+  {
+    "image_index": 78,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.06.33_11151812_cam_H2674069.png",
+    "error": 0.018101295456290245,
+    "status": "normal"
+  },
+  {
+    "image_index": 79,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.07.20_11151821_cam_H2674069.png",
+    "error": 0.01785198785364628,
+    "status": "normal"
+  },
+  {
+    "image_index": 80,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.08.06_11151830_cam_H2674069.png",
+    "error": 0.018310775980353355,
+    "status": "normal"
+  },
+  {
+    "image_index": 81,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.08.53_11151839_cam_H2674069.png",
+    "error": 0.017827104777097702,
+    "status": "normal"
+  },
+  {
+    "image_index": 82,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.09.40_11151848_cam_H2674069.png",
+    "error": 0.02673041634261608,
+    "status": "defective"
+  },
+  {
+    "image_index": 83,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.10.26_11151856_cam_H2674069.png",
+    "error": 0.018894538283348083,
+    "status": "normal"
+  },
+  {
+    "image_index": 84,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.11.30_11151863_cam_H2674069.png",
+    "error": 0.018684569746255875,
+    "status": "normal"
+  },
+  {
+    "image_index": 85,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.12.16_11151872_cam_H2674069.png",
+    "error": 0.01830916665494442,
+    "status": "normal"
+  },
+  {
+    "image_index": 86,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.13.03_11151880_cam_H2674069.png",
+    "error": 0.01918429136276245,
+    "status": "normal"
+  },
+  {
+    "image_index": 87,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.13.49_11151892_cam_H2674069.png",
+    "error": 0.029554538428783417,
+    "status": "defective"
+  },
+  {
+    "image_index": 88,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.14.36_11151901_cam_H2674069.png",
+    "error": 0.02394435927271843,
+    "status": "normal"
+  },
+  {
+    "image_index": 89,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.15.23_11151910_cam_H2674069.png",
+    "error": 0.01795005053281784,
+    "status": "normal"
+  },
+  {
+    "image_index": 90,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.16.09_11151919_cam_H2674069.png",
+    "error": 0.020584018900990486,
+    "status": "normal"
+  },
+  {
+    "image_index": 91,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.16.56_11151928_cam_H2674069.png",
+    "error": 0.019156482070684433,
+    "status": "normal"
+  },
+  {
+    "image_index": 92,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.17.43_11151937_cam_H2674069.png",
+    "error": 0.01825016550719738,
+    "status": "normal"
+  },
+  {
+    "image_index": 93,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.18.30_11151946_cam_H2674069.png",
+    "error": 0.018302803859114647,
+    "status": "normal"
+  },
+  {
+    "image_index": 94,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.19.16_11151955_cam_H2674069.png",
+    "error": 0.030147895216941833,
+    "status": "defective"
+  },
+  {
+    "image_index": 95,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.20.03_11152000_cam_H2674069.png",
+    "error": 0.01854885369539261,
+    "status": "normal"
+  },
+  {
+    "image_index": 96,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.20.49_11152009_cam_H2674069.png",
+    "error": 0.01866086944937706,
+    "status": "normal"
+  },
+  {
+    "image_index": 97,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.21.36_11152018_cam_H2674069.png",
+    "error": 0.025176385417580605,
+    "status": "normal"
+  },
+  {
+    "image_index": 98,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.22.23_11152025_cam_H2674069.png",
+    "error": 0.01966284029185772,
+    "status": "normal"
+  },
+  {
+    "image_index": 99,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.23.09_11152034_cam_H2674069.png",
+    "error": 0.022854385897517204,
+    "status": "normal"
+  },
+  {
+    "image_index": 100,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.23.56_11152043_cam_H2674069.png",
+    "error": 0.018821323290467262,
+    "status": "normal"
+  },
+  {
+    "image_index": 101,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.24.42_11152053_cam_H2674069.png",
+    "error": 0.0307829137891531,
+    "status": "defective"
+  },
+  {
+    "image_index": 102,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.25.28_11152080_cam_H2674069.png",
+    "error": 0.018621986731886864,
+    "status": "normal"
+  },
+  {
+    "image_index": 103,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.26.15_11152089_cam_H2674069.png",
+    "error": 0.017985867336392403,
+    "status": "normal"
+  },
+  {
+    "image_index": 104,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.27.02_11152096_cam_H2674069.png",
+    "error": 0.018833929672837257,
+    "status": "normal"
+  },
+  {
+    "image_index": 105,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.27.49_11152105_cam_H2674069.png",
+    "error": 0.024796610698103905,
+    "status": "normal"
+  },
+  {
+    "image_index": 106,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.28.35_11152114_cam_H2674069.png",
+    "error": 0.026851393282413483,
+    "status": "defective"
+  },
+  {
+    "image_index": 107,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.29.22_11152122_cam_H2674069.png",
+    "error": 0.017913198098540306,
+    "status": "normal"
+  },
+  {
+    "image_index": 108,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.30.08_11152128_cam_H2674069.png",
+    "error": 0.029392676427960396,
+    "status": "defective"
+  },
+  {
+    "image_index": 109,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.30.55_11152137_cam_H2674069.png",
+    "error": 0.020826390013098717,
+    "status": "normal"
+  },
+  {
+    "image_index": 110,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.31.42_11152146_cam_H2674069.png",
+    "error": 0.020666172727942467,
+    "status": "normal"
+  },
+  {
+    "image_index": 111,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.32.28_11152155_cam_H2674069.png",
+    "error": 0.02803731895983219,
+    "status": "defective"
+  },
+  {
+    "image_index": 112,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.33.15_11152164_cam_H2674069.png",
+    "error": 0.022678716108202934,
+    "status": "normal"
+  },
+  {
+    "image_index": 113,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.39.51_11152173_cam_H2674069.png",
+    "error": 0.028198624029755592,
+    "status": "defective"
+  },
+  {
+    "image_index": 114,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.40.38_11152182_cam_H2674069.png",
+    "error": 0.01738012582063675,
+    "status": "normal"
+  },
+  {
+    "image_index": 115,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.41.24_11152208_cam_H2674069.png",
+    "error": 0.019488735124468803,
+    "status": "normal"
+  },
+  {
+    "image_index": 116,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.42.11_11152301_cam_H2674069.png",
+    "error": 0.023066706955432892,
+    "status": "normal"
+  },
+  {
+    "image_index": 117,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.42.58_11152311_cam_H2674069.png",
+    "error": 0.018100228160619736,
+    "status": "normal"
+  },
+  {
+    "image_index": 118,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.43.45_11152320_cam_H2674069.png",
+    "error": 0.018808411434292793,
+    "status": "normal"
+  },
+  {
+    "image_index": 119,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.44.31_11152328_cam_H2674069.png",
+    "error": 0.028783753514289856,
+    "status": "defective"
+  },
+  {
+    "image_index": 120,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.45.18_11152337_cam_H2674069.png",
+    "error": 0.03028816170990467,
+    "status": "defective"
+  },
+  {
+    "image_index": 121,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.46.05_11152346_cam_H2674069.png",
+    "error": 0.02631746418774128,
+    "status": "defective"
+  },
+  {
+    "image_index": 122,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.46.52_11152354_cam_H2674069.png",
+    "error": 0.03013184480369091,
+    "status": "defective"
+  },
+  {
+    "image_index": 123,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.47.38_11152361_cam_H2674069.png",
+    "error": 0.018459610641002655,
+    "status": "normal"
+  },
+  {
+    "image_index": 124,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.48.25_11152368_cam_H2674069.png",
+    "error": 0.02948146127164364,
+    "status": "defective"
+  },
+  {
+    "image_index": 125,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.49.11_11152375_cam_H2674069.png",
+    "error": 0.019091017544269562,
+    "status": "normal"
+  },
+  {
+    "image_index": 126,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.57.22_11152398_cam_H2674069.png",
+    "error": 0.017993276938796043,
+    "status": "normal"
+  },
+  {
+    "image_index": 127,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.58.09_11152405_cam_H2674069.png",
+    "error": 0.018454251810908318,
+    "status": "normal"
+  },
+  {
+    "image_index": 128,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_10.58.56_11152412_cam_H2674069.png",
+    "error": 0.019431814551353455,
+    "status": "normal"
+  },
+  {
+    "image_index": 129,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.01.11_11152489_cam_H2674069.png",
+    "error": 0.018608039245009422,
+    "status": "normal"
+  },
+  {
+    "image_index": 130,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.04.35_11152516_cam_H2674069.png",
+    "error": 0.019084522500634193,
+    "status": "normal"
+  },
+  {
+    "image_index": 131,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.05.21_11152524_cam_H2674069.png",
+    "error": 0.019640006124973297,
+    "status": "normal"
+  },
+  {
+    "image_index": 132,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.06.08_11152540_cam_H2674069.png",
+    "error": 0.02218586765229702,
+    "status": "normal"
+  },
+  {
+    "image_index": 133,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.06.55_11152585_cam_H2674069.png",
+    "error": 0.024181943386793137,
+    "status": "normal"
+  },
+  {
+    "image_index": 134,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.07.42_11152592_cam_H2674069.png",
+    "error": 0.019654178991913795,
+    "status": "normal"
+  },
+  {
+    "image_index": 135,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.08.29_11152600_cam_H2674069.png",
+    "error": 0.03037574328482151,
+    "status": "defective"
+  },
+  {
+    "image_index": 136,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.09.15_11152606_cam_H2674069.png",
+    "error": 0.01905355416238308,
+    "status": "normal"
+  },
+  {
+    "image_index": 137,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.10.02_11152648_cam_H2674069.png",
+    "error": 0.018761740997433662,
+    "status": "normal"
+  },
+  {
+    "image_index": 138,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.10.49_11152654_cam_H2674069.png",
+    "error": 0.02182476781308651,
+    "status": "normal"
+  },
+  {
+    "image_index": 139,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.11.35_11152660_cam_H2674069.png",
+    "error": 0.01911422610282898,
+    "status": "normal"
+  },
+  {
+    "image_index": 140,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.12.22_11152666_cam_H2674069.png",
+    "error": 0.01913590542972088,
+    "status": "normal"
+  },
+  {
+    "image_index": 141,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.13.08_11152672_cam_H2674069.png",
+    "error": 0.018888287246227264,
+    "status": "normal"
+  },
+  {
+    "image_index": 142,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.13.55_11152678_cam_H2674069.png",
+    "error": 0.01889154128730297,
+    "status": "normal"
+  },
+  {
+    "image_index": 143,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.14.42_11152686_cam_H2674069.png",
+    "error": 0.01863868162035942,
+    "status": "normal"
+  },
+  {
+    "image_index": 144,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.15.29_11152694_cam_H2674069.png",
+    "error": 0.018602997064590454,
+    "status": "normal"
+  },
+  {
+    "image_index": 145,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.16.15_11152702_cam_H2674069.png",
+    "error": 0.029975496232509613,
+    "status": "defective"
+  },
+  {
+    "image_index": 146,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.17.02_11152710_cam_H2674069.png",
+    "error": 0.029651282355189323,
+    "status": "defective"
+  },
+  {
+    "image_index": 147,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.17.48_11152718_cam_H2674069.png",
+    "error": 0.01874694973230362,
+    "status": "normal"
+  },
+  {
+    "image_index": 148,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.18.51_11152725_cam_H2674069.png",
+    "error": 0.019399389624595642,
+    "status": "normal"
+  },
+  {
+    "image_index": 149,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.19.38_11152733_cam_H2674069.png",
+    "error": 0.01958817057311535,
+    "status": "normal"
+  },
+  {
+    "image_index": 150,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.20.24_11152760_cam_H2674069.png",
+    "error": 0.030873049050569534,
+    "status": "defective"
+  },
+  {
+    "image_index": 151,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.21.11_11152769_cam_H2674069.png",
+    "error": 0.030415277928113937,
+    "status": "defective"
+  },
+  {
+    "image_index": 152,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.21.58_11152776_cam_H2674069.png",
+    "error": 0.018300432711839676,
+    "status": "normal"
+  },
+  {
+    "image_index": 153,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.22.45_11152784_cam_H2674069.png",
+    "error": 0.021667635068297386,
+    "status": "normal"
+  },
+  {
+    "image_index": 154,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.23.32_11152790_cam_H2674069.png",
+    "error": 0.01860559545457363,
+    "status": "normal"
+  },
+  {
+    "image_index": 155,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.24.19_11152798_cam_H2674069.png",
+    "error": 0.02979111112654209,
+    "status": "defective"
+  },
+  {
+    "image_index": 156,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.25.05_11152824_cam_H2674069.png",
+    "error": 0.021260427311062813,
+    "status": "normal"
+  },
+  {
+    "image_index": 157,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.25.51_11152832_cam_H2674069.png",
+    "error": 0.01868884637951851,
+    "status": "normal"
+  },
+  {
+    "image_index": 158,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.26.38_11152840_cam_H2674069.png",
+    "error": 0.019137687981128693,
+    "status": "normal"
+  },
+  {
+    "image_index": 159,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.27.25_11152848_cam_H2674069.png",
+    "error": 0.01883050799369812,
+    "status": "normal"
+  },
+  {
+    "image_index": 160,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.28.11_11152856_cam_H2674069.png",
+    "error": 0.022796787321567535,
+    "status": "normal"
+  },
+  {
+    "image_index": 161,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.28.58_11152864_cam_H2674069.png",
+    "error": 0.018291428685188293,
+    "status": "normal"
+  },
+  {
+    "image_index": 162,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.29.45_11152872_cam_H2674069.png",
+    "error": 0.02194623090326786,
+    "status": "normal"
+  },
+  {
+    "image_index": 163,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.30.31_11152898_cam_H2674069.png",
+    "error": 0.025880711153149605,
+    "status": "normal"
+  },
+  {
+    "image_index": 164,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.31.18_11152904_cam_H2674069.png",
+    "error": 0.019082313403487206,
+    "status": "normal"
+  },
+  {
+    "image_index": 165,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.32.04_11152911_cam_H2674069.png",
+    "error": 0.02081291191279888,
+    "status": "normal"
+  },
+  {
+    "image_index": 166,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.32.51_11152919_cam_H2674069.png",
+    "error": 0.026039477437734604,
+    "status": "normal"
+  },
+  {
+    "image_index": 167,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.33.38_11152926_cam_H2674069.png",
+    "error": 0.025841614231467247,
+    "status": "normal"
+  },
+  {
+    "image_index": 168,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.34.25_11152934_cam_H2674069.png",
+    "error": 0.021758195012807846,
+    "status": "normal"
+  },
+  {
+    "image_index": 169,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.35.11_11152960_cam_H2674069.png",
+    "error": 0.01914403587579727,
+    "status": "normal"
+  },
+  {
+    "image_index": 170,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.35.58_11152967_cam_H2674069.png",
+    "error": 0.019679438322782516,
+    "status": "normal"
+  },
+  {
+    "image_index": 171,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.36.45_11152974_cam_H2674069.png",
+    "error": 0.02017783187329769,
+    "status": "normal"
+  },
+  {
+    "image_index": 172,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.37.31_11152982_cam_H2674069.png",
+    "error": 0.02764713019132614,
+    "status": "defective"
+  },
+  {
+    "image_index": 173,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.38.35_11152990_cam_H2674069.png",
+    "error": 0.02442929707467556,
+    "status": "normal"
+  },
+  {
+    "image_index": 174,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.39.22_11152998_cam_H2674069.png",
+    "error": 0.018530920147895813,
+    "status": "normal"
+  },
+  {
+    "image_index": 175,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.40.08_11153004_cam_H2674069.png",
+    "error": 0.027599483728408813,
+    "status": "defective"
+  },
+  {
+    "image_index": 176,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.40.55_11153032_cam_H2674069.png",
+    "error": 0.02365238033235073,
+    "status": "normal"
+  },
+  {
+    "image_index": 177,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.41.42_11153040_cam_H2674069.png",
+    "error": 0.019021645188331604,
+    "status": "normal"
+  },
+  {
+    "image_index": 178,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.42.28_11153047_cam_H2674069.png",
+    "error": 0.02320713922381401,
+    "status": "normal"
+  },
+  {
+    "image_index": 179,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.43.15_11153055_cam_H2674069.png",
+    "error": 0.018219992518424988,
+    "status": "normal"
+  },
+  {
+    "image_index": 180,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.44.02_11153063_cam_H2674069.png",
+    "error": 0.01921260729432106,
+    "status": "normal"
+  },
+  {
+    "image_index": 181,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.44.48_11153071_cam_H2674069.png",
+    "error": 0.022457556799054146,
+    "status": "normal"
+  },
+  {
+    "image_index": 182,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.45.35_11153097_cam_H2674069.png",
+    "error": 0.018100401386618614,
+    "status": "normal"
+  },
+  {
+    "image_index": 183,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.46.22_11153104_cam_H2674069.png",
+    "error": 0.02228683792054653,
+    "status": "normal"
+  },
+  {
+    "image_index": 184,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.47.08_11153112_cam_H2674069.png",
+    "error": 0.01897924765944481,
+    "status": "normal"
+  },
+  {
+    "image_index": 185,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.47.55_11153119_cam_H2674069.png",
+    "error": 0.028940347954630852,
+    "status": "defective"
+  },
+  {
+    "image_index": 186,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.48.42_11153127_cam_H2674069.png",
+    "error": 0.019859498366713524,
+    "status": "normal"
+  },
+  {
+    "image_index": 187,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.49.28_11153135_cam_H2674069.png",
+    "error": 0.02501043677330017,
+    "status": "normal"
+  },
+  {
+    "image_index": 188,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.50.15_11153161_cam_H2674069.png",
+    "error": 0.01897558942437172,
+    "status": "normal"
+  },
+  {
+    "image_index": 189,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.53.35_11153166_cam_H2674069.png",
+    "error": 0.018582956865429878,
+    "status": "normal"
+  },
+  {
+    "image_index": 190,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.54.22_11153174_cam_H2674069.png",
+    "error": 0.01886027865111828,
+    "status": "normal"
+  },
+  {
+    "image_index": 191,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.57.24_11153182_cam_H2674069.png",
+    "error": 0.028572725132107735,
+    "status": "defective"
+  },
+  {
+    "image_index": 192,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.58.10_11153228_cam_H2674069.png",
+    "error": 0.01950620487332344,
+    "status": "normal"
+  },
+  {
+    "image_index": 193,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.58.57_11153234_cam_H2674069.png",
+    "error": 0.030764462426304817,
+    "status": "defective"
+  },
+  {
+    "image_index": 194,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_11.59.44_11153260_cam_H2674069.png",
+    "error": 0.022621074691414833,
+    "status": "normal"
+  },
+  {
+    "image_index": 195,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.00.30_11153284_cam_H2674069.png",
+    "error": 0.02360091172158718,
+    "status": "normal"
+  },
+  {
+    "image_index": 196,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.01.17_11153292_cam_H2674069.png",
+    "error": 0.018691761419177055,
+    "status": "normal"
+  },
+  {
+    "image_index": 197,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.02.03_11153300_cam_H2674069.png",
+    "error": 0.02314188703894615,
+    "status": "normal"
+  },
+  {
+    "image_index": 198,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.02.50_11153308_cam_H2674069.png",
+    "error": 0.021978210657835007,
+    "status": "normal"
+  },
+  {
+    "image_index": 199,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.03.36_11153316_cam_H2674069.png",
+    "error": 0.01916569471359253,
+    "status": "normal"
+  },
+  {
+    "image_index": 200,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.04.23_11153324_cam_H2674069.png",
+    "error": 0.018199101090431213,
+    "status": "normal"
+  },
+  {
+    "image_index": 201,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.05.09_11153331_cam_H2674069.png",
+    "error": 0.02905222587287426,
+    "status": "defective"
+  },
+  {
+    "image_index": 202,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.05.56_11153339_cam_H2674069.png",
+    "error": 0.018757125362753868,
+    "status": "normal"
+  },
+  {
+    "image_index": 203,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.12.38_11153347_cam_H2674069.png",
+    "error": 0.01844594068825245,
+    "status": "normal"
+  },
+  {
+    "image_index": 204,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.13.25_11153355_cam_H2674069.png",
+    "error": 0.018299464136362076,
+    "status": "normal"
+  },
+  {
+    "image_index": 205,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.14.11_11153363_cam_H2674069.png",
+    "error": 0.02312716841697693,
+    "status": "normal"
+  },
+  {
+    "image_index": 206,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.14.58_11153421_cam_H2674069.png",
+    "error": 0.03118828497827053,
+    "status": "defective"
+  },
+  {
+    "image_index": 207,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.15.45_11153465_cam_H2674069.png",
+    "error": 0.019005900248885155,
+    "status": "normal"
+  },
+  {
+    "image_index": 208,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.16.31_11153471_cam_H2674069.png",
+    "error": 0.020514559000730515,
+    "status": "normal"
+  },
+  {
+    "image_index": 209,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.17.18_11153478_cam_H2674069.png",
+    "error": 0.02579798549413681,
+    "status": "normal"
+  },
+  {
+    "image_index": 210,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.18.05_11153486_cam_H2674069.png",
+    "error": 0.029858140274882317,
+    "status": "defective"
+  },
+  {
+    "image_index": 211,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.18.51_11153494_cam_H2674069.png",
+    "error": 0.018460603430867195,
+    "status": "normal"
+  },
+  {
+    "image_index": 212,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.19.38_11153502_cam_H2674069.png",
+    "error": 0.01892072893679142,
+    "status": "normal"
+  },
+  {
+    "image_index": 213,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.20.25_11153509_cam_H2674069.png",
+    "error": 0.020728232339024544,
+    "status": "normal"
+  },
+  {
+    "image_index": 214,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.21.11_11153517_cam_H2674069.png",
+    "error": 0.018592868000268936,
+    "status": "normal"
+  },
+  {
+    "image_index": 215,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.23.19_11153524_cam_H2674069.png",
+    "error": 0.023237444460392,
+    "status": "normal"
+  },
+  {
+    "image_index": 216,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.24.06_11153532_cam_H2674069.png",
+    "error": 0.027695955708622932,
+    "status": "defective"
+  },
+  {
+    "image_index": 217,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.24.52_11153539_cam_H2674069.png",
+    "error": 0.01934036798775196,
+    "status": "normal"
+  },
+  {
+    "image_index": 218,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.25.39_11153554_cam_H2674069.png",
+    "error": 0.029983606189489365,
+    "status": "defective"
+  },
+  {
+    "image_index": 219,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.26.26_11153562_cam_H2674069.png",
+    "error": 0.02888595499098301,
+    "status": "defective"
+  },
+  {
+    "image_index": 220,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.27.12_11153570_cam_H2674069.png",
+    "error": 0.021245036274194717,
+    "status": "normal"
+  },
+  {
+    "image_index": 221,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.28.00_11153578_cam_H2674069.png",
+    "error": 0.018666286021471024,
+    "status": "normal"
+  },
+  {
+    "image_index": 222,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.28.46_11153586_cam_H2674069.png",
+    "error": 0.02443823590874672,
+    "status": "normal"
+  },
+  {
+    "image_index": 223,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.29.33_11153594_cam_H2674069.png",
+    "error": 0.01873847097158432,
+    "status": "normal"
+  },
+  {
+    "image_index": 224,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.30.20_11153638_cam_H2674069.png",
+    "error": 0.018860500305891037,
+    "status": "normal"
+  },
+  {
+    "image_index": 225,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.31.06_11153643_cam_H2674069.png",
+    "error": 0.021227190271019936,
+    "status": "normal"
+  },
+  {
+    "image_index": 226,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.31.53_11153650_cam_H2674069.png",
+    "error": 0.01946779154241085,
+    "status": "normal"
+  },
+  {
+    "image_index": 227,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.32.40_11153657_cam_H2674069.png",
+    "error": 0.026143481954932213,
+    "status": "normal"
+  },
+  {
+    "image_index": 228,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.33.26_11153663_cam_H2674069.png",
+    "error": 0.026605909690260887,
+    "status": "defective"
+  },
+  {
+    "image_index": 229,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.34.13_11153669_cam_H2674069.png",
+    "error": 0.022548703476786613,
+    "status": "normal"
+  },
+  {
+    "image_index": 230,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.35.00_11153675_cam_H2674069.png",
+    "error": 0.01843419298529625,
+    "status": "normal"
+  },
+  {
+    "image_index": 231,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.35.46_11153699_cam_H2674069.png",
+    "error": 0.018855726346373558,
+    "status": "normal"
+  },
+  {
+    "image_index": 232,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.36.33_11153705_cam_H2674069.png",
+    "error": 0.028326716274023056,
+    "status": "defective"
+  },
+  {
+    "image_index": 233,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.37.19_11153711_cam_H2674069.png",
+    "error": 0.01915900781750679,
+    "status": "normal"
+  },
+  {
+    "image_index": 234,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.38.06_11153717_cam_H2674069.png",
+    "error": 0.0225782822817564,
+    "status": "normal"
+  },
+  {
+    "image_index": 235,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.38.52_11153723_cam_H2674069.png",
+    "error": 0.019154565408825874,
+    "status": "normal"
+  },
+  {
+    "image_index": 236,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.39.39_11153727_cam_H2674069.png",
+    "error": 0.01952694170176983,
+    "status": "normal"
+  },
+  {
+    "image_index": 237,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.40.25_11153733_cam_H2674069.png",
+    "error": 0.026926137506961823,
+    "status": "defective"
+  },
+  {
+    "image_index": 238,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.41.12_11153739_cam_H2674069.png",
+    "error": 0.01830125041306019,
+    "status": "normal"
+  },
+  {
+    "image_index": 239,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.42.14_11153746_cam_H2674069.png",
+    "error": 0.019312072545289993,
+    "status": "normal"
+  },
+  {
+    "image_index": 240,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.43.00_11153753_cam_H2674069.png",
+    "error": 0.018734386190772057,
+    "status": "normal"
+  },
+  {
+    "image_index": 241,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.43.47_11153761_cam_H2674069.png",
+    "error": 0.024268347769975662,
+    "status": "normal"
+  },
+  {
+    "image_index": 242,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.44.34_11153769_cam_H2674069.png",
+    "error": 0.02055300585925579,
+    "status": "normal"
+  },
+  {
+    "image_index": 243,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.45.20_11153795_cam_H2674069.png",
+    "error": 0.0276552252471447,
+    "status": "defective"
+  },
+  {
+    "image_index": 244,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.46.07_11153803_cam_H2674069.png",
+    "error": 0.02201159857213497,
+    "status": "normal"
+  },
+  {
+    "image_index": 245,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.46.53_11153811_cam_H2674069.png",
+    "error": 0.0181730967015028,
+    "status": "normal"
+  },
+  {
+    "image_index": 246,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.47.40_11153818_cam_H2674069.png",
+    "error": 0.018738556653261185,
+    "status": "normal"
+  },
+  {
+    "image_index": 247,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.48.26_11153826_cam_H2674069.png",
+    "error": 0.023243675008416176,
+    "status": "normal"
+  },
+  {
+    "image_index": 248,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.49.13_11153833_cam_H2674069.png",
+    "error": 0.02358902245759964,
+    "status": "normal"
+  },
+  {
+    "image_index": 249,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.49.59_11153839_cam_H2674069.png",
+    "error": 0.02076939307153225,
+    "status": "normal"
+  },
+  {
+    "image_index": 250,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.50.46_11153883_cam_H2674069.png",
+    "error": 0.029108203947544098,
+    "status": "defective"
+  },
+  {
+    "image_index": 251,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.51.32_11153891_cam_H2674069.png",
+    "error": 0.01850144751369953,
+    "status": "normal"
+  },
+  {
+    "image_index": 252,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.52.18_11153899_cam_H2674069.png",
+    "error": 0.018900973722338676,
+    "status": "normal"
+  },
+  {
+    "image_index": 253,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.53.05_11153907_cam_H2674069.png",
+    "error": 0.02048814482986927,
+    "status": "normal"
+  },
+  {
+    "image_index": 254,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.53.51_11153915_cam_H2674069.png",
+    "error": 0.01854163408279419,
+    "status": "normal"
+  },
+  {
+    "image_index": 255,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.54.38_11153923_cam_H2674069.png",
+    "error": 0.019896792247891426,
+    "status": "normal"
+  },
+  {
+    "image_index": 256,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.55.24_11153935_cam_H2674069.png",
+    "error": 0.024877503514289856,
+    "status": "normal"
+  },
+  {
+    "image_index": 257,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.56.11_11153943_cam_H2674069.png",
+    "error": 0.018810154870152473,
+    "status": "normal"
+  },
+  {
+    "image_index": 258,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.56.58_11153951_cam_H2674069.png",
+    "error": 0.0251340139657259,
+    "status": "normal"
+  },
+  {
+    "image_index": 259,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.57.44_11153957_cam_H2674069.png",
+    "error": 0.01822955347597599,
+    "status": "normal"
+  },
+  {
+    "image_index": 260,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.58.31_11153965_cam_H2674069.png",
+    "error": 0.028539059683680534,
+    "status": "defective"
+  },
+  {
+    "image_index": 261,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_12.59.18_11153975_cam_H2674069.png",
+    "error": 0.01897403784096241,
+    "status": "normal"
+  },
+  {
+    "image_index": 262,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.00.04_11153982_cam_H2674069.png",
+    "error": 0.01811489462852478,
+    "status": "normal"
+  },
+  {
+    "image_index": 263,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.00.51_11154008_cam_H2674069.png",
+    "error": 0.018439531326293945,
+    "status": "normal"
+  },
+  {
+    "image_index": 264,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.01.37_11154015_cam_H2674069.png",
+    "error": 0.025221752002835274,
+    "status": "normal"
+  },
+  {
+    "image_index": 265,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.02.24_11154022_cam_H2674069.png",
+    "error": 0.01929074339568615,
+    "status": "normal"
+  },
+  {
+    "image_index": 266,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.03.27_11154028_cam_H2674069.png",
+    "error": 0.02293107472360134,
+    "status": "normal"
+  },
+  {
+    "image_index": 267,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.04.14_11154034_cam_H2674069.png",
+    "error": 0.019613191485404968,
+    "status": "normal"
+  },
+  {
+    "image_index": 268,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.05.01_11154040_cam_H2674069.png",
+    "error": 0.0190218985080719,
+    "status": "normal"
+  },
+  {
+    "image_index": 269,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.05.47_11154046_cam_H2674069.png",
+    "error": 0.019094781950116158,
+    "status": "normal"
+  },
+  {
+    "image_index": 270,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.06.34_11154052_cam_H2674069.png",
+    "error": 0.028575990349054337,
+    "status": "defective"
+  },
+  {
+    "image_index": 271,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.07.20_11154058_cam_H2674069.png",
+    "error": 0.018510693684220314,
+    "status": "normal"
+  },
+  {
+    "image_index": 272,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.08.07_11154064_cam_H2674069.png",
+    "error": 0.02975238859653473,
+    "status": "defective"
+  },
+  {
+    "image_index": 273,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.08.53_11154068_cam_H2674069.png",
+    "error": 0.019714968279004097,
+    "status": "normal"
+  },
+  {
+    "image_index": 274,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.09.40_11154074_cam_H2674069.png",
+    "error": 0.020620787516236305,
+    "status": "normal"
+  },
+  {
+    "image_index": 275,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.10.26_11154098_cam_H2674069.png",
+    "error": 0.018280433490872383,
+    "status": "normal"
+  },
+  {
+    "image_index": 276,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.11.13_11154105_cam_H2674069.png",
+    "error": 0.01887645572423935,
+    "status": "normal"
+  },
+  {
+    "image_index": 277,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.12.00_11154111_cam_H2674069.png",
+    "error": 0.018197843804955482,
+    "status": "normal"
+  },
+  {
+    "image_index": 278,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.12.46_11154118_cam_H2674069.png",
+    "error": 0.02064063586294651,
+    "status": "normal"
+  },
+  {
+    "image_index": 279,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.13.33_11154124_cam_H2674069.png",
+    "error": 0.024873273447155952,
+    "status": "normal"
+  },
+  {
+    "image_index": 280,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.14.20_11154131_cam_H2674069.png",
+    "error": 0.02275085635483265,
+    "status": "normal"
+  },
+  {
+    "image_index": 281,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.15.06_11154137_cam_H2674069.png",
+    "error": 0.02702663466334343,
+    "status": "defective"
+  },
+  {
+    "image_index": 282,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.15.53_11154179_cam_H2674069.png",
+    "error": 0.02419230341911316,
+    "status": "normal"
+  },
+  {
+    "image_index": 283,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.16.39_11154185_cam_H2674069.png",
+    "error": 0.02918659895658493,
+    "status": "defective"
+  },
+  {
+    "image_index": 284,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.17.26_11154189_cam_H2674069.png",
+    "error": 0.019482238218188286,
+    "status": "normal"
+  },
+  {
+    "image_index": 285,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.18.13_11154195_cam_H2674069.png",
+    "error": 0.01987963728606701,
+    "status": "normal"
+  },
+  {
+    "image_index": 286,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.19.12_11154201_cam_H2674069.png",
+    "error": 0.02469850890338421,
+    "status": "normal"
+  },
+  {
+    "image_index": 287,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.19.59_11154207_cam_H2674069.png",
+    "error": 0.018807457759976387,
+    "status": "normal"
+  },
+  {
+    "image_index": 288,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.20.46_11154213_cam_H2674069.png",
+    "error": 0.03075156919658184,
+    "status": "defective"
+  },
+  {
+    "image_index": 289,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.21.32_11154219_cam_H2674069.png",
+    "error": 0.02722216211259365,
+    "status": "defective"
+  },
+  {
+    "image_index": 290,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.22.18_11154225_cam_H2674069.png",
+    "error": 0.01923026517033577,
+    "status": "normal"
+  },
+  {
+    "image_index": 291,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.23.05_11154231_cam_H2674069.png",
+    "error": 0.029431072995066643,
+    "status": "defective"
+  },
+  {
+    "image_index": 292,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.23.51_11154237_cam_H2674069.png",
+    "error": 0.019277246668934822,
+    "status": "normal"
+  },
+  {
+    "image_index": 293,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.24.38_11154243_cam_H2674069.png",
+    "error": 0.030186304822564125,
+    "status": "defective"
+  },
+  {
+    "image_index": 294,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.25.24_11154267_cam_H2674069.png",
+    "error": 0.018649399280548096,
+    "status": "normal"
+  },
+  {
+    "image_index": 295,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.26.11_11154273_cam_H2674069.png",
+    "error": 0.030162423849105835,
+    "status": "defective"
+  },
+  {
+    "image_index": 296,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.26.57_11154277_cam_H2674069.png",
+    "error": 0.024736376479268074,
+    "status": "normal"
+  },
+  {
+    "image_index": 297,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.27.44_11154283_cam_H2674069.png",
+    "error": 0.018608596175909042,
+    "status": "normal"
+  },
+  {
+    "image_index": 298,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.28.30_11154289_cam_H2674069.png",
+    "error": 0.023055756464600563,
+    "status": "normal"
+  },
+  {
+    "image_index": 299,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.29.16_11154295_cam_H2674069.png",
+    "error": 0.02774427831172943,
+    "status": "defective"
+  },
+  {
+    "image_index": 300,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.30.03_11154301_cam_H2674069.png",
+    "error": 0.01827976480126381,
+    "status": "normal"
+  },
+  {
+    "image_index": 301,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.30.49_11154325_cam_H2674069.png",
+    "error": 0.02800051122903824,
+    "status": "defective"
+  },
+  {
+    "image_index": 302,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.31.36_11154331_cam_H2674069.png",
+    "error": 0.01918964833021164,
+    "status": "normal"
+  },
+  {
+    "image_index": 303,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.36.06_11154337_cam_H2674069.png",
+    "error": 0.01958492025732994,
+    "status": "normal"
+  },
+  {
+    "image_index": 304,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.36.53_11154344_cam_H2674069.png",
+    "error": 0.02378935180604458,
+    "status": "normal"
+  },
+  {
+    "image_index": 305,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.37.39_11154350_cam_H2674069.png",
+    "error": 0.020539818331599236,
+    "status": "normal"
+  },
+  {
+    "image_index": 306,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.38.26_11154392_cam_H2674069.png",
+    "error": 0.019260013476014137,
+    "status": "normal"
+  },
+  {
+    "image_index": 307,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.39.28_11154398_cam_H2674069.png",
+    "error": 0.018791086971759796,
+    "status": "normal"
+  },
+  {
+    "image_index": 308,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.40.14_11154405_cam_H2674069.png",
+    "error": 0.021028950810432434,
+    "status": "normal"
+  },
+  {
+    "image_index": 309,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.41.01_11154411_cam_H2674069.png",
+    "error": 0.019134338945150375,
+    "status": "normal"
+  },
+  {
+    "image_index": 310,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.41.48_11154418_cam_H2674069.png",
+    "error": 0.019068140536546707,
+    "status": "normal"
+  },
+  {
+    "image_index": 311,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.42.35_11154426_cam_H2674069.png",
+    "error": 0.019559303298592567,
+    "status": "normal"
+  },
+  {
+    "image_index": 312,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.44.02_11154432_cam_H2674069.png",
+    "error": 0.02529519982635975,
+    "status": "normal"
+  },
+  {
+    "image_index": 313,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.44.48_11154438_cam_H2674069.png",
+    "error": 0.029457218945026398,
+    "status": "defective"
+  },
+  {
+    "image_index": 314,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.45.35_11154443_cam_H2674069.png",
+    "error": 0.019144855439662933,
+    "status": "normal"
+  },
+  {
+    "image_index": 315,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.46.21_11154471_cam_H2674069.png",
+    "error": 0.018660103902220726,
+    "status": "normal"
+  },
+  {
+    "image_index": 316,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.47.08_11154478_cam_H2674069.png",
+    "error": 0.02507823146879673,
+    "status": "normal"
+  },
+  {
+    "image_index": 317,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.47.55_11154485_cam_H2674069.png",
+    "error": 0.01907542161643505,
+    "status": "normal"
+  },
+  {
+    "image_index": 318,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.48.41_11154493_cam_H2674069.png",
+    "error": 0.024637645110487938,
+    "status": "normal"
+  },
+  {
+    "image_index": 319,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.49.27_11154501_cam_H2674069.png",
+    "error": 0.02063010260462761,
+    "status": "normal"
+  },
+  {
+    "image_index": 320,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.50.14_11154508_cam_H2674069.png",
+    "error": 0.02980593405663967,
+    "status": "defective"
+  },
+  {
+    "image_index": 321,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.51.00_11154533_cam_H2674069.png",
+    "error": 0.030175581574440002,
+    "status": "defective"
+  },
+  {
+    "image_index": 322,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.51.47_11154538_cam_H2674069.png",
+    "error": 0.019027242437005043,
+    "status": "normal"
+  },
+  {
+    "image_index": 323,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.52.33_11154540_cam_H2674069.png",
+    "error": 0.019209666177630424,
+    "status": "normal"
+  },
+  {
+    "image_index": 324,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.53.20_11154544_cam_H2674069.png",
+    "error": 0.030087411403656006,
+    "status": "defective"
+  },
+  {
+    "image_index": 325,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.54.06_11154548_cam_H2674069.png",
+    "error": 0.018575552850961685,
+    "status": "normal"
+  },
+  {
+    "image_index": 326,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.54.52_11154551_cam_H2674069.png",
+    "error": 0.02381877973675728,
+    "status": "normal"
+  },
+  {
+    "image_index": 327,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.55.55_11154563_cam_H2674069.png",
+    "error": 0.019175834953784943,
+    "status": "normal"
+  },
+  {
+    "image_index": 328,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.56.41_11154565_cam_H2674069.png",
+    "error": 0.02808895893394947,
+    "status": "defective"
+  },
+  {
+    "image_index": 329,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.57.27_11154567_cam_H2674069.png",
+    "error": 0.019116519019007683,
+    "status": "normal"
+  },
+  {
+    "image_index": 330,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.58.14_11154569_cam_H2674069.png",
+    "error": 0.019083276391029358,
+    "status": "normal"
+  },
+  {
+    "image_index": 331,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-03_13.59.00_11154571_cam_H2674069.png",
+    "error": 0.02146841026842594,
+    "status": "normal"
+  },
+  {
+    "image_index": 332,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-16_12.53.09_11235332_cam_H2674069.png",
+    "error": 0.022885793820023537,
+    "status": "normal"
+  },
+  {
+    "image_index": 333,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2024-12-16_12.57.03_11235373_cam_H2674069.png",
+    "error": 0.022962016984820366,
+    "status": "normal"
+  },
+  {
+    "image_index": 334,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-23_11.44.39_11637738_cam_H2674069.png",
+    "error": 0.01708444580435753,
+    "status": "normal"
+  },
+  {
+    "image_index": 335,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-23_11.48.31_11637801_cam_H2674069.png",
+    "error": 0.016914894804358482,
+    "status": "normal"
+  },
+  {
+    "image_index": 336,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.37.54_11785980_cam_H2674069.png",
+    "error": 0.024240685626864433,
+    "status": "normal"
+  },
+  {
+    "image_index": 337,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.38.39_11785988_cam_H2674069.png",
+    "error": 0.017020881175994873,
+    "status": "normal"
+  },
+  {
+    "image_index": 338,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.40.52_11785996_cam_H2674069.png",
+    "error": 0.016870280727744102,
+    "status": "normal"
+  },
+  {
+    "image_index": 339,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.41.39_11786004_cam_H2674069.png",
+    "error": 0.02052476815879345,
+    "status": "normal"
+  },
+  {
+    "image_index": 340,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.42.26_11786024_cam_H2674069.png",
+    "error": 0.026996534317731857,
+    "status": "defective"
+  },
+  {
+    "image_index": 341,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.43.12_11786086_cam_H2674069.png",
+    "error": 0.017231039702892303,
+    "status": "normal"
+  },
+  {
+    "image_index": 342,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.43.59_11786094_cam_H2674069.png",
+    "error": 0.026701489463448524,
+    "status": "defective"
+  },
+  {
+    "image_index": 343,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.44.45_11786102_cam_H2674069.png",
+    "error": 0.01857314072549343,
+    "status": "normal"
+  },
+  {
+    "image_index": 344,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.45.32_11786110_cam_H2674069.png",
+    "error": 0.018888847902417183,
+    "status": "normal"
+  },
+  {
+    "image_index": 345,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.46.18_11786118_cam_H2674069.png",
+    "error": 0.021968040615320206,
+    "status": "normal"
+  },
+  {
+    "image_index": 346,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.47.05_11786124_cam_H2674069.png",
+    "error": 0.01694604381918907,
+    "status": "normal"
+  },
+  {
+    "image_index": 347,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.47.51_11786130_cam_H2674069.png",
+    "error": 0.024929089471697807,
+    "status": "normal"
+  },
+  {
+    "image_index": 348,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.48.38_11786138_cam_H2674069.png",
+    "error": 0.02284075692296028,
+    "status": "normal"
+  },
+  {
+    "image_index": 349,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.49.24_11786145_cam_H2674069.png",
+    "error": 0.018606996163725853,
+    "status": "normal"
+  },
+  {
+    "image_index": 350,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.50.11_11786153_cam_H2674069.png",
+    "error": 0.01694103516638279,
+    "status": "normal"
+  },
+  {
+    "image_index": 351,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.50.57_11786159_cam_H2674069.png",
+    "error": 0.018544839695096016,
+    "status": "normal"
+  },
+  {
+    "image_index": 352,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.51.43_11786165_cam_H2674069.png",
+    "error": 0.025080231949687004,
+    "status": "normal"
+  },
+  {
+    "image_index": 353,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.52.30_11786171_cam_H2674069.png",
+    "error": 0.01688690483570099,
+    "status": "normal"
+  },
+  {
+    "image_index": 354,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.53.16_11786178_cam_H2674069.png",
+    "error": 0.024701474234461784,
+    "status": "normal"
+  },
+  {
+    "image_index": 355,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.55.56_11786186_cam_H2674069.png",
+    "error": 0.02628091536462307,
+    "status": "defective"
+  },
+  {
+    "image_index": 356,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_09.56.42_11786194_cam_H2674069.png",
+    "error": 0.022931842133402824,
+    "status": "normal"
+  },
+  {
+    "image_index": 357,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.02.38_11786210_cam_H2674069.png",
+    "error": 0.018815534189343452,
+    "status": "normal"
+  },
+  {
+    "image_index": 358,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.03.25_11786250_cam_H2674069.png",
+    "error": 0.02427484281361103,
+    "status": "normal"
+  },
+  {
+    "image_index": 359,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.04.11_11786309_cam_H2674069.png",
+    "error": 0.017526136711239815,
+    "status": "normal"
+  },
+  {
+    "image_index": 360,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.04.58_11786316_cam_H2674069.png",
+    "error": 0.022186828777194023,
+    "status": "normal"
+  },
+  {
+    "image_index": 361,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.05.45_11786324_cam_H2674069.png",
+    "error": 0.02596147544682026,
+    "status": "normal"
+  },
+  {
+    "image_index": 362,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.06.31_11786331_cam_H2674069.png",
+    "error": 0.017755407840013504,
+    "status": "normal"
+  },
+  {
+    "image_index": 363,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.07.17_11786339_cam_H2674069.png",
+    "error": 0.017111020162701607,
+    "status": "normal"
+  },
+  {
+    "image_index": 364,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.08.04_11786345_cam_H2674069.png",
+    "error": 0.025274954736232758,
+    "status": "normal"
+  },
+  {
+    "image_index": 365,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.08.50_11786353_cam_H2674069.png",
+    "error": 0.016958333551883698,
+    "status": "normal"
+  },
+  {
+    "image_index": 366,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.09.37_11786361_cam_H2674069.png",
+    "error": 0.01698475331068039,
+    "status": "normal"
+  },
+  {
+    "image_index": 367,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.10.23_11786367_cam_H2674069.png",
+    "error": 0.01851908676326275,
+    "status": "normal"
+  },
+  {
+    "image_index": 368,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.11.10_11786375_cam_H2674069.png",
+    "error": 0.016979532316327095,
+    "status": "normal"
+  },
+  {
+    "image_index": 369,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.11.56_11786383_cam_H2674069.png",
+    "error": 0.022091999650001526,
+    "status": "normal"
+  },
+  {
+    "image_index": 370,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.12.43_11786390_cam_H2674069.png",
+    "error": 0.016938988119363785,
+    "status": "normal"
+  },
+  {
+    "image_index": 371,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.13.29_11786416_cam_H2674069.png",
+    "error": 0.016917791217565536,
+    "status": "normal"
+  },
+  {
+    "image_index": 372,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.14.15_11786424_cam_H2674069.png",
+    "error": 0.017143230885267258,
+    "status": "normal"
+  },
+  {
+    "image_index": 373,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.15.19_11786430_cam_H2674069.png",
+    "error": 0.02267288602888584,
+    "status": "normal"
+  },
+  {
+    "image_index": 374,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.16.05_11786438_cam_H2674069.png",
+    "error": 0.021361470222473145,
+    "status": "normal"
+  },
+  {
+    "image_index": 375,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.16.52_11786449_cam_H2674069.png",
+    "error": 0.02638508565723896,
+    "status": "defective"
+  },
+  {
+    "image_index": 376,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.17.38_11786457_cam_H2674069.png",
+    "error": 0.019707607105374336,
+    "status": "normal"
+  },
+  {
+    "image_index": 377,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.18.24_11786501_cam_H2674069.png",
+    "error": 0.026316989213228226,
+    "status": "defective"
+  },
+  {
+    "image_index": 378,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.19.11_11786509_cam_H2674069.png",
+    "error": 0.017023446038365364,
+    "status": "normal"
+  },
+  {
+    "image_index": 379,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.19.58_11786515_cam_H2674069.png",
+    "error": 0.01693805120885372,
+    "status": "normal"
+  },
+  {
+    "image_index": 380,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.20.44_11786523_cam_H2674069.png",
+    "error": 0.017064297571778297,
+    "status": "normal"
+  },
+  {
+    "image_index": 381,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.21.30_11786531_cam_H2674069.png",
+    "error": 0.016897382214665413,
+    "status": "normal"
+  },
+  {
+    "image_index": 382,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.22.17_11786539_cam_H2674069.png",
+    "error": 0.020022757351398468,
+    "status": "normal"
+  },
+  {
+    "image_index": 383,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.23.03_11786546_cam_H2674069.png",
+    "error": 0.02008497528731823,
+    "status": "normal"
+  },
+  {
+    "image_index": 384,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.23.50_11786555_cam_H2674069.png",
+    "error": 0.020258154720067978,
+    "status": "normal"
+  },
+  {
+    "image_index": 385,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.24.36_11786563_cam_H2674069.png",
+    "error": 0.01850351132452488,
+    "status": "normal"
+  },
+  {
+    "image_index": 386,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.25.22_11786567_cam_H2674069.png",
+    "error": 0.026262864470481873,
+    "status": "defective"
+  },
+  {
+    "image_index": 387,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.26.09_11786575_cam_H2674069.png",
+    "error": 0.018382864072918892,
+    "status": "normal"
+  },
+  {
+    "image_index": 388,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.26.56_11786583_cam_H2674069.png",
+    "error": 0.017061950638890266,
+    "status": "normal"
+  },
+  {
+    "image_index": 389,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.27.42_11786591_cam_H2674069.png",
+    "error": 0.024461086839437485,
+    "status": "normal"
+  },
+  {
+    "image_index": 390,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.28.29_11786599_cam_H2674069.png",
+    "error": 0.027022585272789,
+    "status": "defective"
+  },
+  {
+    "image_index": 391,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.29.15_11786607_cam_H2674069.png",
+    "error": 0.017002111300826073,
+    "status": "normal"
+  },
+  {
+    "image_index": 392,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.30.01_11786615_cam_H2674069.png",
+    "error": 0.017206337302923203,
+    "status": "normal"
+  },
+  {
+    "image_index": 393,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.30.48_11786623_cam_H2674069.png",
+    "error": 0.020073482766747475,
+    "status": "normal"
+  },
+  {
+    "image_index": 394,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.31.35_11786631_cam_H2674069.png",
+    "error": 0.02647261694073677,
+    "status": "defective"
+  },
+  {
+    "image_index": 395,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.32.21_11786639_cam_H2674069.png",
+    "error": 0.017671868205070496,
+    "status": "normal"
+  },
+  {
+    "image_index": 396,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.33.23_11786681_cam_H2674069.png",
+    "error": 0.017581645399332047,
+    "status": "normal"
+  },
+  {
+    "image_index": 397,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.34.09_11786689_cam_H2674069.png",
+    "error": 0.02572069689631462,
+    "status": "normal"
+  },
+  {
+    "image_index": 398,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.34.56_11786696_cam_H2674069.png",
+    "error": 0.017033759504556656,
+    "status": "normal"
+  },
+  {
+    "image_index": 399,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.35.43_11786701_cam_H2674069.png",
+    "error": 0.01919153705239296,
+    "status": "normal"
+  },
+  {
+    "image_index": 400,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.36.29_11786706_cam_H2674069.png",
+    "error": 0.017372241243720055,
+    "status": "normal"
+  },
+  {
+    "image_index": 401,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.37.16_11786712_cam_H2674069.png",
+    "error": 0.02589597925543785,
+    "status": "normal"
+  },
+  {
+    "image_index": 402,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.38.02_11786737_cam_H2674069.png",
+    "error": 0.02082817070186138,
+    "status": "normal"
+  },
+  {
+    "image_index": 403,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.38.49_11786759_cam_H2674069.png",
+    "error": 0.017774231731891632,
+    "status": "normal"
+  },
+  {
+    "image_index": 404,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.39.35_11786763_cam_H2674069.png",
+    "error": 0.021551016718149185,
+    "status": "normal"
+  },
+  {
+    "image_index": 405,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.40.22_11786769_cam_H2674069.png",
+    "error": 0.025419360026717186,
+    "status": "normal"
+  },
+  {
+    "image_index": 406,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.43.41_11786775_cam_H2674069.png",
+    "error": 0.016857216134667397,
+    "status": "normal"
+  },
+  {
+    "image_index": 407,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.44.28_11786781_cam_H2674069.png",
+    "error": 0.026706723496317863,
+    "status": "defective"
+  },
+  {
+    "image_index": 408,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.45.15_11786805_cam_H2674069.png",
+    "error": 0.017266463488340378,
+    "status": "normal"
+  },
+  {
+    "image_index": 409,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.46.01_11786813_cam_H2674069.png",
+    "error": 0.022146346047520638,
+    "status": "normal"
+  },
+  {
+    "image_index": 410,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.46.48_11786819_cam_H2674069.png",
+    "error": 0.02703508920967579,
+    "status": "defective"
+  },
+  {
+    "image_index": 411,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.47.34_11786825_cam_H2674069.png",
+    "error": 0.0171759445220232,
+    "status": "normal"
+  },
+  {
+    "image_index": 412,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.48.21_11786867_cam_H2674069.png",
+    "error": 0.017060760408639908,
+    "status": "normal"
+  },
+  {
+    "image_index": 413,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.49.31_11786873_cam_H2674069.png",
+    "error": 0.02601415105164051,
+    "status": "normal"
+  },
+  {
+    "image_index": 414,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.50.17_11786879_cam_H2674069.png",
+    "error": 0.018333710730075836,
+    "status": "normal"
+  },
+  {
+    "image_index": 415,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.51.03_11786887_cam_H2674069.png",
+    "error": 0.024092020466923714,
+    "status": "normal"
+  },
+  {
+    "image_index": 416,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.51.50_11786891_cam_H2674069.png",
+    "error": 0.016903402283787727,
+    "status": "normal"
+  },
+  {
+    "image_index": 417,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.52.36_11786897_cam_H2674069.png",
+    "error": 0.017656469717621803,
+    "status": "normal"
+  },
+  {
+    "image_index": 418,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.53.23_11786903_cam_H2674069.png",
+    "error": 0.01695551536977291,
+    "status": "normal"
+  },
+  {
+    "image_index": 419,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.54.09_11786909_cam_H2674069.png",
+    "error": 0.023630985990166664,
+    "status": "normal"
+  },
+  {
+    "image_index": 420,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.54.56_11786915_cam_H2674069.png",
+    "error": 0.017054228112101555,
+    "status": "normal"
+  },
+  {
+    "image_index": 421,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.55.42_11786921_cam_H2674069.png",
+    "error": 0.025225207209587097,
+    "status": "normal"
+  },
+  {
+    "image_index": 422,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.56.29_11786927_cam_H2674069.png",
+    "error": 0.02592846378684044,
+    "status": "normal"
+  },
+  {
+    "image_index": 423,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.57.15_11786935_cam_H2674069.png",
+    "error": 0.018440693616867065,
+    "status": "normal"
+  },
+  {
+    "image_index": 424,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.58.02_11786943_cam_H2674069.png",
+    "error": 0.02315497398376465,
+    "status": "normal"
+  },
+  {
+    "image_index": 425,
+    "image_path": "Backend/tensor/dataset/cropped_images\\img_2025-01-31_10.58.48_11786968_cam_H2674069.png",
+    "error": 0.01935591548681259,
+    "status": "normal"
+  }
+]
