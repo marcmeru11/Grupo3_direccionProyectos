@@ -1,41 +1,42 @@
+using System;
 using Programa1.layer;
 using Programa1.Layer.Bridge;
 using Programa1.Style.Background;
 using Programa1.Style.Transition;
 
-namespace Programa1.Style;
+namespace Programa1.Style
+{
+    public class RenderStyle {
+        private IBackground _background;
+        private ITransition _transition;
 
-/**
- * Main renderer bridge that handles abstraction calls from most of the layers to their respective renderers
- */
-public class RenderStyle {
+        public IBackground Background {
+            get => _background;
+            set => _background = value ?? throw new ArgumentNullException(nameof(value));
+        }
 
-    private readonly IBackground _background;
-    private readonly ITransition _transition;
-    
-    public RenderStyle(IBackground background, ITransition transition) {
-        _background = background;
-        _transition = transition;
+        public ITransition Transition {
+            get => _transition;
+            set => _transition = value ?? throw new ArgumentNullException(nameof(value));
+        }
+
+        public RenderStyle(IBackground background, ITransition transition) {
+            _background = background;
+            _transition = transition;
+        }
+
+        public static RenderStyle Default() {
+            return new RenderStyle(new MatrixBackground(), new DefaultTransition());
+        }
+
+        public void RenderBackground(RenderContext ctx) {
+            _background.Render(ctx);
+        }
+
+        public void RenderTransition(RenderContext ctx) {
+            _transition.Render(ctx);
+        }
+
     }
-
-    public static RenderStyle Default() {
-        return new RenderStyle(new MatrixBackground(), new DefaultTransition());
-    }
-
-    public void RenderBackground(RenderContext ctx) {
-        _background.Render(ctx);
-    }
-    
-    public void RenderTransition(RenderContext ctx) {
-        _transition.Render(ctx);
-    }
-
-    /// TODO: Keep creating different bridge methods. Do NOT use existing bridges if the renderer doesn't match the layer type (for example, don't call
-    /// TODO: RenderBackground using RenderProgramLogo)
-    /// <code>
-    ///     public void RenderProgramLogo(RenderContext ctx) {
-    ///         _programLogo.Render(ctx);
-    ///     }
-    /// </code>
     
 }

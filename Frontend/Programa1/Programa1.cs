@@ -12,8 +12,11 @@ public partial class Programa1 : Window {
     /**
      * Just meant for static initialization of the final list above
      */
-    static Programa1() {
+    static Programa1()
+    {
         Layers.Add(new BackgroundLayer());
+        Layers.Add(new UploadLayer());
+        Layers.Add(new StyleSelectorLayer());
         Layers.Add(new TransitionLayer());
     }
 
